@@ -1,0 +1,55 @@
+.header1sec1-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843D;
+    font-size: 30px;
+}
+
+.header2sec1-NM {
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843D;
+    font-size: 50px;
+    margin-top: -3%;
+}
+
+.header3sec1-NM {
+    font-family: Mitr-Regular, sans-serif;
+    color: #F79420;
+    font-size: 40px;
+    margin-top: -5%;
+}
+
+.imgbtn-NM {
+    border: none;
+    background: none;
+}
+
+.sec1mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec1-NM {
+        display: none;
+    }
+    .sec1mb-NM {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .header1sec1-NM {
+        font-size: 22px;
+    }
+
+    .header2sec1-NM {
+        font-size: 30px;
+        margin-top: -5%;
+    }
+
+    .header3sec1-NM {
+        font-size: 22px;
+        margin-top: -7%;
+    }
+    .utubesec1mb-NM {
+        margin-left: 7%;
+    }
+}

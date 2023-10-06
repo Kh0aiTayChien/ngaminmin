@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Mitr-SemiBold';
+    src: url("/Fonts/Mitr-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Mitr-Regular';
+    src: url("/Fonts/Mitr-Regular.tttf");
+}
+
+.headersec6-GT {
+    transform: translateY(35%);
+    width: 55vw;
+    margin-left: 23%;
+    scale: 75%;
+}
+
+.imgsec6-GT {
+    width: 45vw;
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+
+.textsec6-GT {
+    float: right;
+    width: 35vw;
+    text-align: justify;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.sec6mb-GT {
+    display: none;
+}
+
+.textsec6-GT-test {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Mulish-SemiBold, sans-serif;
+}
+
+.bold-text {
+    font-family: Mulish-Medium, sans-serif;
+    /*font-weight: bolder;*/
+}
+
+.contentsec6-GT-test {
+    margin-left: 3%;
+}
+
+.containersec6-GT-test {
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+
+.imgsec6-GT-test {
+    width: 43%;
+}
+
+@media screen and (max-width: 768px) {
+    .sec6-GT-test {
+        display: none;
+    }
+    .sec6mb-GT {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .imgsec6mb-GT {
+        width: 90vw;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .headersec6mb-GT {
+        width: 72vw;
+        margin-top: 7%;
+    }
+}

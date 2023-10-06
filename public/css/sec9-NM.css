@@ -1,0 +1,46 @@
+.sec9-NM {
+    background-image: url("/images/nga-min/sec9/Asset 2.png");
+    background-size: cover;
+    /*background-position: center top 170px;*/
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+    margin-top: 3%;
+    padding-top: 3%;
+}
+
+.form-customer-sec9-NM {
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.customer-pc-NM {
+    transform: translateX(130%) translateY(40%);
+}
+
+.form-customer-NM {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -28%;
+}
+
+.sec9mb-NM {
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .sec9-NM {
+        background-image: url("/images/nga-min/sec9/Asset 2.png");
+        background-size: cover;
+        background-position: center left -150px;
+        background-repeat: no-repeat;
+        padding-bottom: 20%;
+        margin-top: 3%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec9-NM {
+        display: none;
+    }
+}

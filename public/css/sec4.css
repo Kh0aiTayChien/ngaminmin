@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Mitr-SemiBold';
+    src: url("/Fonts/Mitr-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Mitr-Regular';
+    src: url("/Fonts/Mitr-Regular.ttf");
+}
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url("/Fonts/Mulish-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("/Fonts/Mulish-ExtraBold.ttf");
+}
+
+.sec4pc {
+    background-image: url("/images/sec4/Group 825.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: center top 170px;
+    /*background-color: aqua;*/
+    margin-top: 5%;
+}
+
+.container1sec4 {
+    /*display: block;*/
+}
+
+.banner1sec4 {
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 32vw;
+}
+
+.header1sec4 {
+    float: right;
+    margin-top: 5%;
+    margin-right: 17.5%;
+    /*width: 30vw;*/
+    scale: 70%;
+    transform: translateX(-40%);
+}
+
+.clear {
+    clear: both;
+}
+
+.content1sec4 {
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.button2 {
+    width: 13vw;
+    margin-top: 2%;
+    /*margin-left: 5.5%;*/
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.banner2sec4 {
+    /*position: absolute;*/
+    /*float: right;*/
+    width: 32vw;
+    margin-top: 2%;
+    margin-left: 52.5%;
+}
+
+.container2sec4-HP {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.content2sec4 {
+    /*text-align: right;*/
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.content23sec4 {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    /*text-align: justify;*/
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.button3 {
+    width: 13vw;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 35%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*transition: filter 0.3s ease-in-out;*/
+}
+
+.headersec4 {
+    font-family: 'Mitr-SemiBold', sans-serif;
+    /*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));*/
+    font-size: 20px;
+}
+
+.contentsec4 {
+    font-family: 'Mulish-SemiBold', sans-serif;
+
+}
+
+.container1sec4-HP {
+    padding-left: 3%;
+}
+
+.img1sec4-HP {
+    padding-right: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.img2sec4-HP {
+    padding-left: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.textRight {
+    float: right;
+}
+
+.sec4mb {
+    display: none;
+}
+
+/*@media screen and (min-width: 1600px) and (max-width: 1920px) {*/
+/*    .sec4pc {*/
+/*        background-image: url("/images/sec4/Group 825.png");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: 100% 70%;*/
+/*        background-position: center top 270px;*/
+/*    }*/
+/*    .button3 {*/
+/*        margin-top: -20%;*/
+/*    }*/
+/*}*/
+
+
+@media screen and (max-width: 768px) {
+    .sec4pc {
+        display: none;
+    }
+    .sec4mb {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/sec4/Group 1262.png");
+        background-size: cover;
+    }
+    .header1sec4mb {
+        justify-content: center;
+        width: 100vw;
+        font-size: 15px;
+        /*margin-left: 20%;*/
+        font-family: 'Mitr-SemiBold', sans-serif;
+        color: white;
+        padding-top: 4%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    }
+    .header2sec4mb {
+        justify-content: center;
+        width: 100vw;
+        font-size: 15px;
+        /*margin-left: 20%;*/
+        font-family: 'Mitr-SemiBold', sans-serif;
+        color: white;
+        /*padding-top: 4%;*/
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    }
+    .contentsec4mb {
+        font-size: 15px;
+        margin-left: 10%;
+        width: 80vw;
+        font-family: 'Mulish-SemiBold', sans-serif;
+        text-align: justify;
+        color: white;
+    }
+    .bannersec4mb {
+        width: 80vw;
+    }
+    .button2mb {
+        width: 38vw;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    }
+    .decoration {
+        text-decoration: none;
+    }
+}

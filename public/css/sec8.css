@@ -1,0 +1,59 @@
+.sec8 {
+    display: block;
+    background-image: url("/images/sec8/Chuyên mục sức khỏe.png");
+    background-size: cover;
+    /*background-position: center top -50px;*/
+    margin-bottom: 4%;
+    padding-bottom: 8%;
+    padding-top: 5%;
+}
+
+.sec8mb {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sec8 {
+        display: none;
+    }
+    .sec8mb {
+        /*background-image: url("/images/sec8/Chuyên mục sức khỏe - mobile.png");*/
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*background-color: #F1F1F2;*/
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .contentsec8mb {
+        background-image: url("/images/sec8/Chuyên mục sức khỏe - mobile.png");
+        background-size: cover;
+        background-position: center top -70px;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .headersec8mb {
+        margin-top: 3%;
+        scale: 80%;
+    }
+    .imgsec8mb {
+        padding-top: 3%;
+    }
+    /*.bannersec8mb {*/
+    /*    width: 100vw;*/
+    /*}*/
+}
+
+.headersec8 {
+    margin-left: 45%;
+    margin-top: 3%;
+    scale: 70%;
+}
+
+.imgsec8 {
+    margin-left: 50%;
+    padding-top: 3%;
+}

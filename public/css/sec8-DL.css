@@ -1,0 +1,40 @@
+.sec8-DL {
+    background-image: url("/images/dai-ly/sec8/Group 2096.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding-top: 5%;
+    /*background-position: center top 120px;*/
+}
+
+.contentsec8-DL {
+    width: 40vw;
+    margin-left: 55%;
+    /*margin-top: 8%;*/
+    /*margin-bottom: 5%;*/
+}
+
+.sec8mb-DL {
+    display: none;
+}
+
+.headersec8-DL {
+    margin-top: 5%;
+    transform: translateY(-20%);
+}
+
+@media screen and (max-width: 768px) {
+    .sec8-DL {
+        display: none;
+    }
+    .sec8mb-DL {
+        display: block;
+    }
+    .contentsec8mb-DL {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .sec8mb-DL-test {
+        margin-top: 5%;
+    }
+}
+

@@ -1,0 +1,175 @@
+.sec2-DL {
+    background-image: url("/images/dai-ly/sec2/Asset 20.png");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: center top 150px;
+    margin-top: 3%;
+}
+
+.quote-test {
+    text-align: right;
+}
+
+.quotesec2-DL {
+    padding-top: 30%;
+}
+
+.headersec2-DL {
+    font-size: 50px;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: white;
+    /*text-align: right;*/
+    transform: translateX(-10%) translateY(-150%);
+    /*scale: 80%;*/
+}
+
+.headersec2-DL2 {
+    font-size: 40px;
+    font-family: Mitr-Regular, sans-serif;
+    color: white;
+    /*text-align: right;*/
+    /*line-height: 5px;*/
+    transform: translateX(-10%) translateY(-240%);
+    /*text-align: right;*/
+    /*padding-top: 20px;*/
+}
+
+.bannersec2-DL {
+    width: 45vw;
+    /*margin-left: 10%;*/
+}
+
+.headerbannersec2-DL {
+    transform: translateY(-80%);
+}
+
+.conditionsec2-DL {
+    margin-top: -8%;
+    width: 70vw;
+    margin-left: 15%;
+}
+
+.absolute {
+    position: absolute;
+    width: 12vw;
+    text-align: justify;
+    margin-top: -9%;
+}
+
+.imgsec2-DL-left {
+    padding-left: 1%;
+    padding-right: 1%;
+    transform: translateX(20%);
+    width: 23%;
+}
+
+.imgsec2-DL-left1 {
+    padding-left: 1%;
+    padding-right: 1%;
+    transform: translateX(10%);
+    width: 23%;
+}
+
+.imgsec2-DL-right {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 23%;
+}
+
+.imgsec2-DL-right1 {
+    padding-left: 1%;
+    padding-right: 1%;
+    transform: translateX(-10%);
+    width: 23%;
+}
+
+.left1 {
+    margin-left: 17%;
+}
+
+.left2 {
+    margin-left: 35%;
+}
+
+.left3 {
+    margin-left: 53%;
+    margin-top: -9.5% !important;
+    font-size: 14px !important;
+}
+
+.left4 {
+    margin-left: 71%;
+}
+
+.sec2mb-DL {
+    display: none;
+}
+
+.dailymb2-DL {
+    display: none;
+}
+
+.conditionsec2-DL-test {
+    transform: translateY(-25%);
+}
+
+@media screen and (max-width: 1400px) {
+    .sec2-DL {
+        background-image: url("/images/dai-ly/sec2/Asset 20.png");
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+        background-position: center top 100px;
+        margin-top: 3%;
+    }
+    .headersec2-DL {
+        font-size: 40px;
+    }
+    .headersec2-DL2 {
+        font-size: 30px;
+        transform: translateY(-270%) translateX(-10%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec2-DL {
+        display: none;
+    }
+
+    .dailymb2-DL {
+        display: block;
+    }
+
+    .sec2mb-DL {
+        margin-top: -10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/dai-ly/sec2/Group 3173.png");
+        background-size: cover;
+    }
+
+    .headerbannersec2mb-DL {
+        width: 60vw;
+        /*margin-top: 20%;*/
+    }
+
+    .contentsec2mb-DL {
+        width: 115%;
+        margin-left: 15%;
+    }
+
+    .condition1sec2mb-DL {
+        margin-top: -12%;
+        transform: translateX(2%);
+    }
+
+    .conditionsec2mb-DL {
+        padding-bottom: 5%;
+        transform: translateX(2%);
+    }
+
+    .dailymb2-DL {
+        margin-top: -20%;
+    }
+}

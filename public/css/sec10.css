@@ -1,0 +1,536 @@
+.sec10pc {
+    background-image: url("/images/sec10/Rectangle 4.png");
+    background-size: 100% 100%;
+    /*background-position: center top -50px;*/
+    padding-bottom: 5%;
+    padding-top: 15%;
+}
+
+.sec1-LH {
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    /*margin-left: 15%;*/
+
+}
+
+.sec1-LH-test {
+    margin-top: 12%;
+    text-align: center;
+    justify-content: center;
+    /*margin-left: 15%;*/
+}
+
+.sec1-LH-test-mb {
+    margin-top: 22%;
+    text-align: justify;
+    justify-content: center;
+    /*margin-left: 15%;*/
+}
+
+.header-test-green-LH {
+    font-size: 40px;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843d;
+}
+
+.header-test-green-LH-mb {
+    font-size: 22px;
+    font-family: Mitr-SemiBold, sans-serif;
+    color: #59843d;
+}
+
+.header-test-orange-LH {
+    font-size: 30px;
+    font-family: Mitr-Regular, sans-serif;
+    color: #F79420;
+    /*line-height: 5px;*/
+    text-align: center;
+    justify-content: center;
+}
+
+.header-test-orange-LH-mb {
+    font-size: 20px;
+    font-family: Mitr-Regular, sans-serif;
+    color: #F79420;
+    /*line-height: 5px;*/
+    text-align: justify;
+    justify-content: center;
+    /*line-height: 20px;*/
+}
+
+.line-height-test {
+    line-height: 15px;
+}
+
+.daily-test1 {
+    background-image: url("/images/sec10/dai-ly.png");
+    /*background-color: yellow;*/
+    margin-left: 17%;
+    padding-bottom: 4%;
+    background-size: 100% 100%;
+    margin-bottom: 1%;
+}
+
+.svg-input-test {
+    height: 45.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*margin-right: 0.5%;*/
+    margin-left: 1%;
+    padding: 10px;
+    /*opacity: 0;*/
+}
+
+.svg-input-test-none {
+    height: 45.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    /*margin-right: 0.5%;*/
+    margin-left: 1%;
+    padding: 10px;
+    margin-top: ;
+    opacity: 0;
+}
+
+.form-daily {
+    margin-top: -7%;
+    margin-left: 1.5%;
+}
+
+.form-daily-fake {
+    margin-left: 1.5%;
+}
+
+.dailybutton-test {
+    position: absolute;
+    border-radius: 27.445px;
+    background-color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    border: 2.5px #59843d solid;
+    font-family: Mitr-Medium, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 70%;
+    width: 18.5vw;
+    height: 40.891px;
+    margin-top: 3%;
+}
+
+.button4-test {
+    width: 18.5vw;
+    height: 45.891px;
+    text-decoration: none;
+    color: #59843d;
+}
+
+.button4-test:hover {
+    color: #59843d;
+}
+
+.headersec10 {
+    margin-top: -1%;
+    margin-left: 15%;
+    width: 73vw;
+}
+
+.daily {
+    /*position: absolute;*/
+    margin-top: -7.5%;
+    margin-left: 17%;
+}
+
+.shadow-test {
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.width-test {
+    width: 8vw;
+}
+
+.svg-input {
+    /*width: 271.266px;*/
+    height: 35.891px;
+    width: 16vw;
+    border-radius: 27.445px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-right: 0.5%;
+    padding: 20px;
+    /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
+}
+
+
+.svg-input-test:focus {
+    outline: none;
+}
+
+.formOutline {
+    width: 30vw;
+    /*height: 60vh;*/
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.submitbutton-test {
+    width: 18.5vw;
+    margin-top: 10%;
+    height: 45.891px;
+    border-radius: 27.445px;
+    background-color: #59843d;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-left: 1%;
+    border: 2.5px white solid;
+    font-family: Mitr-Medium, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.submitbutton-test-daily {
+    width: 18.5vw;
+    margin-top: 5%;
+    height: 45.891px;
+    border-radius: 27.445px;
+    background-color: white;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    margin-left: 1%;
+    border: 3px #59843d solid;
+    font-family: Mitr-Medium, sans-serif;
+    color: #59843d;
+    letter-spacing: 2px;
+}
+
+.dailybutton {
+    border: none;
+    background: none;
+    position: absolute;
+    margin-left: 67.8%;
+    margin-top: -6.5%;
+}
+
+.button4 {
+    width: 18vw;
+    /*height: 40px;*/
+}
+
+.customer-pc {
+    width: 30vw;
+    background-image: url("/images/sec10/Group 5082.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 15%;
+    padding-bottom: 3%;
+}
+
+.text1customersec10 {
+    font-family: Mitr-Regular, sans-serif;
+    /*font-weight: bold;*/
+    color: white;
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.text2customersec10 {
+    font-family: Mitr-SemiBold, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: -3%;
+    font-size: 50px;
+    text-align: center;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.svg-input-customer-test {
+    height: 65.891px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px;
+}
+
+.form-customer {
+    margin-left: 6%;
+}
+
+.svg-input-customer {
+    /*width: 271.266px;*/
+    height: 65.891px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px;
+    /* Các thuộc tính CSS khác để điều chỉnh kiểu dáng */
+}
+
+.svg-input-customer-test:focus {
+    outline: none;
+}
+
+.svg-input-bot {
+    width: 25vw;
+    height: 100.008px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px; /* Tùy chỉnh khoảng cách giữa chữ và viền của input */
+    box-sizing: border-box;
+}
+
+.svg-input-bot::placeholder {
+    white-space: pre-wrap;
+}
+
+.svg-input-bot:focus {
+    outline: none;
+}
+
+.customer-button {
+    border: none;
+    background: none;
+}
+
+.sec10mb {
+    display: none;
+}
+
+.button5 {
+    width: 26.5vw;
+    /*position: absolute;*/
+    margin-left: -2.5%;
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    .daily {
+        /*position: absolute;*/
+        margin-top: -6%;
+        margin-left: 18%;
+    }
+
+    .svg-input {
+        width: 15.5vw;
+        height: 45px;
+    }
+
+    .dailybutton {
+        margin-left: 66.5%;
+        margin-top: -6.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec1-LH {
+        margin-top: 5%;
+    }
+    .sec10pc {
+        display: none;
+    }
+
+    .sec10mb {
+        display: block;
+        background-image: url("/images/sec10/Group 1270.png");
+        background-size: cover;
+        background-position: center top -100px;
+        padding-top: 1%;
+    }
+
+    .headersec10mb {
+        width: 90vw;
+        height: 40vh;
+        margin-top: -15%;
+    }
+
+    .dailymb {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90vw;
+        background-color: white;
+        /*height: 18vh;*/
+        border-radius: 10px;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bannerdaily {
+        width: 70vw;
+        /*margin-left: 2%;*/
+    }
+
+    .formdailymb {
+        display: inline;
+    }
+
+    .svg-input-mb {
+        width: 27vw;
+        border: none;
+        border-radius: 20px;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+        padding-left: 10px;
+        /*margin-left: 1%;*/
+        margin-top: 3%;
+    }
+
+    .svg-input-mb:focus {
+        outline: none;
+    }
+
+    /*.svg-input-mb {*/
+    /*    height: 25px;*/
+    /*    width: 25vw;*/
+    /*    !*border-radius: 27.445px;*!*/
+    /*    border: none;*/
+    /*    background-color: #fff;*/
+    /*    !*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.5));*!*/
+    /*    margin-right: 0.5%;*/
+    /*    padding-left: 10px;*/
+    /*}*/
+    .svg-input-mb::placeholder {
+        font-size: 12px;
+    }
+
+    .submitbutton-mb {
+        /*position: absolute;*/
+        width: 40vw;
+        margin-top: 5%;
+        margin-left: 55%;
+    }
+
+    .daily-button-mb {
+        border: none;
+        background: none;
+        /*margin-top: -50%;*/
+
+    }
+
+    .button4mb {
+        position: absolute;
+        width: 45vw;
+        margin-top: -15.5%;
+        margin-left: 4%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    .bannercustomermb {
+        width: 50vw;
+        margin-left: 5%;
+    }
+
+    .customer-mb {
+        width: 50vw;
+        margin-left: 5%;
+        background-image: url("/images/sec10/Group 5082.png");
+        background-size: 100% 100%;
+        padding-bottom: 5%;
+    }
+
+    .svg-input-customer-mb {
+        border-radius: 5px;
+        border: none;
+        padding-left: 10px;
+        margin-top: 5%;
+        /*margin-top: -10%!important;*/
+        width: 42vw;
+        margin-left: 5%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    .svg-input-customer-mb::placeholder {
+        font-size: 12px;
+        color: #A6A8AB;
+    }
+
+    input::placeholder {
+        font-family: Mulish-SemiBold, sans-serif;
+    }
+
+    .svg-input-customer-mb:focus {
+        outline: none;
+    }
+
+    .svg-input-bot-mb:focus {
+        outline: none;
+    }
+
+    .svg-input-bot-mb {
+        border-radius: 5px;
+        border: none;
+        padding-left: 10px;
+        margin-top: 5%;
+        /*margin-top: -10%!important;*/
+        width: 42vw;
+        margin-left: 5%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    .svg-input-bot-mb::placeholder {
+        font-size: 12px;
+        color: #A6A8AB;
+    }
+
+    .customer-button-mb {
+        border-radius: 5px;
+        background-color: #59843d;
+        border: 2px white solid;
+        font-family: Mulish-ExtraBold, sans-serif;
+        color: white;
+        font-size: 12px;
+        width: 42vw;
+        height: 30px;
+        margin-left: 7%;
+        margin-top: 1%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+    /*.btn-form-customer {*/
+    /*    font-family: Mitr-Regular, sans-serif;*/
+    /*}*/
+    .button5mb {
+        width: 45vw;
+        /*margin-left: 3%;*/
+        padding-bottom: 5%;
+    }
+
+    .spacesec10mb {
+        height: 15px;
+    }
+
+    .text1customersec10mb {
+        font-family: Mitr-Regular, sans-serif;
+        /*font-weight: bold;*/
+        color: white;
+        padding-top: 5%;
+        font-size: 15px;
+        text-align: center;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    .customer-top {
+        margin-top: -10% !important;
+    }
+
+    .text2customersec10mb {
+        font-family: Mitr-SemiBold, sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: -10%;
+        /*margin-left: 18%;*/
+        font-size: 20px;
+        text-align: center;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.2));
+    }
+}

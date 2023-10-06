@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Mitr-Medium';
+    src: url("/Fonts/Mitr-Medium.ttf");
+}
+
+
+.headerpc {
+    height: 25vh;
+    width: 100vw;
+}
+
+
+.headerpc .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/header/Asset 1.png");
+    /*background-size: 102vw auto;*/
+    background-size: 102% 100%;
+    background-position: center top -15px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+}
+
+.inline-list-left li {
+    display: inline-block;
+    margin-right: 55px;
+    margin-top: 25px;
+}
+
+.inline-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 12vw;
+}
+
+.inline-list-right li {
+    display: inline-block;
+    margin-right: 54px;
+    margin-top: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #404041;
+}
+
+ul li a p {
+    font-family: 'Mitr-Medium', sans-serif;
+    font-size: 13px;
+}
+
+ul li a:hover {
+    color: #59843D;
+}
+
+/*!* Màu sắc khi đang ở link 'gioi-thieu' *!*/
+/*#gioi-thieu-link #gioi-thieu-text {*/
+/*    color: green;*/
+/*}*/
+
+/*!* Màu sắc khi đang ở link 'san-pham' *!*/
+/*#san-pham-link #san-pham-text {*/
+/*    color: green;*/
+/*}*/
+
+.headermb {
+    display: none;
+}
+
+ul.hide {
+    display: none;
+}
+
+ul.iconmb {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    position: fixed;
+    background-image: url("/images/header/bg-menumb.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    margin-top: -11%;
+}
+
+.menuleft {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 23px;
+    /*transform: translateX(20%);*/
+}
+
+.menuleft li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.logominmin a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-test {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 55%;
+    margin-top: 5px;
+    /*transform: translateX(30%);*/
+}
+
+
+
+.menuright {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 23px;
+    transform: translateX(-10%);
+}
+
+.menuright li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .headerpc .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/images/header/Asset 1.png");
+        background-size: 140% 110%;
+        background-position: center top -15px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        z-index: -1;
+    }
+    .headermenu {
+        transform: translateY(-5%);
+    }
+    .logo-test {
+        transform: translateY(5%);
+    }
+    .menuleft {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .headerpc {
+        display: none;
+    }
+
+    .sec3pc {
+        display: none;
+    }
+
+    .sec4pc {
+        display: none;
+    }
+
+    .sec6pc {
+        display: none;
+    }
+
+    .sec10pc {
+        display: none;
+    }
+
+    .headermb {
+        display: inline;
+        height: 10vh;
+        width: 100vw;
+    }
+    .background-image-mb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/images/header/Group 1281.png");
+        background-size: 105vw auto;
+        background-position: center top -5px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        z-index: -1;
+    }
+    .logomb {
+        width: 28vw;
+        margin-left: 2%;
+        margin-top: 8%;
+    }
+
+    .menu {
+        width: 5vw;
+        position: absolute;
+        right: 5px !important;
+        margin-top: -1%;
+    }
+    .contact {
+        list-style-type: none;
+    }
+    .linktext {
+        color: white;
+        text-align: center;
+        /*margin-right: 5%;*/
+    }
+    /*nav ul li a {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    text-align: center;*/
+    /*    justify-content: center;*/
+    /*}*/
+    .textlink {
+        margin-top: 15%;
+        font-size: 25px;
+        font-family: Mitr-SemiBold, sans-serif;
+        margin-right: 8%;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+    }
+    .textlinktop {
+        margin-top: 25%
+    }
+    .close-btn {
+        position: absolute;
+        background: none;
+        border: none;
+        margin-left: 77%;
+        margin-top: 5%;
+    }
+    .btn-close-img {
+        width: 8vw;
+    }
+}
