@@ -1,4 +1,4 @@
-<div class="sec9-NM">
+<div class="sec9-NM" id="Lien-he">
     <div class="customer-pc customer-pc-NM ">
         <p class="text1customersec10">Đăng ký đại lý</p>
         <p class="text2customersec10">MIN MIN CARE</p>
@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="sec10mb mt-5">
+<div class="sec10mb mt-5" id="Lien-he-mb">
     <div class="customer-mb">
         <p class="text1customersec10mb">ĐĂNG KÝ ĐẠI LÝ</p>
         <p class="text2customersec10mb">MIN MIN CARE</p>

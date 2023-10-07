@@ -1,4 +1,4 @@
-<div class="section-7">
+<div class="section-7" id="Hoi-dap">
     <div class=" d-flex align-content-center justify-content-center pt-4" style="">
         <img src="{{asset('images/nga-min/sec7/thacmac.png')}}" alt="" class="share-joy" style="">
     </div>

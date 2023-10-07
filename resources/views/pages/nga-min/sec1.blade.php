@@ -1,4 +1,4 @@
-<div class="sec1-NM">
+<div class="sec1-NM" id="Gioi-thieu">
     <div class="row-test">
         <button type="button" class="imgbtn-NM col-xxl-4 col-md-5" data-bs-toggle="modal"
                 data-bs-target="#exampleModal-NM">
@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<div class="sec1mb-NM">
+<div class="sec1mb-NM" id="Gioi-thieu-mb">
     <p class="header1sec1-NM">NƠI NHỮNG</p>
     <p class="header2sec1-NM">ƯỚC MUỐN</p>
     <p class="header3sec1-NM">Bị chôn vùi</p>

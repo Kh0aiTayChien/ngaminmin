@@ -38,7 +38,7 @@
             <img src="{{asset('images/nga-min/sec4/Asset 9.png')}}" class="img1sec4-NM">
         </div>
     </div>
-    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb"></object>
+    <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb" id="Chia-se-mb"></object>
 </div>
 
 <script>

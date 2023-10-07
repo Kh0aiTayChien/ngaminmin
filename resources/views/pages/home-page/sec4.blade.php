@@ -1,4 +1,4 @@
-<div class="sec4pc">
+<div class="sec4pc" id="Chia-se">
     <div class="content1sec4-HP">
         <div class="row-test">
             <img src="{{asset('images/sec4/nga min-01.png')}}" class="col-xxl-4 col-md-5 img1sec4-HP">

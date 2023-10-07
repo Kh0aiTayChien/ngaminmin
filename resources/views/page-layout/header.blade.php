@@ -3,34 +3,34 @@
     <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('/')}}" id="trang-chu-link">
+                <a href="#" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
+                <a href="#Gioi-thieu" id="gioi-thieu-link">
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-{{--                <a href="{{route('homepage.product.index')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>--}}
+                <a href="#Chia-se" id="dai-ly-link"><p>CHIA SẺ</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-4 logominmin">
-            <a href="{{asset('/')}}"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
+            <a href="#"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
         </div>
         <ul class="col-xxl-3 col-md-4 menuright">
-            <li class="col-xxl-3 col-md-3">
-                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>
+{{--            <li class="col-xxl-3 col-md-3">--}}
+{{--                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>--}}
+{{--            </li>--}}
+            <li class="col-xxl-4 col-md-4">
+                <a href="#Hoi-dap" id="tin-tuc-link"><p>HỎI ĐÁP</p></a>
             </li>
-            <li class="col-xxl-3 col-md-3">
-                <a href="{{asset('tin-tuc')}}" id="tin-tuc-link"><p>TIN TỨC</p></a>
+            <li class="col-xxl-4 col-md-4">
+                <a href="#Blog" id="kien-thuc-link"><p>BLOG</p></a>
             </li>
-            <li class="col-xxl-3 col-md-3">
-                <a href="{{asset('kien-thuc')}}" id="kien-thuc-link"><p>KIẾN THỨC</p></a>
-            </li>
-            <li class="col-xxl-3 col-md-3">
-                <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
+            <li class="col-xxl-4 col-md-4">
+                <a href="#Lien-he" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -334,32 +334,25 @@
             <button class="close-btn"><img src="{{asset('images/header/close-btn.png')}}" class="btn-close-img">
             </button>
             <li class="contact linetop">
-                <a href="{{asset('/')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
+                <a href="#" class="linktext aniUtil_dramatic ani_fadeIn"><p
                         class="textlink textlinktop">TRANG CHỦ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('gioi-thieu')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
+                <a href="#Gioi-thieu-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p
                         class="textlink">GIỚI
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">SẢN
-                        PHẨM</p></a>
+                <a href="#Chia-se-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">CHIA SẺ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('dai-ly')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">ĐẠI
-                        LÝ</p></a>
+                <a href="#Hoi-dap" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">HỎI ĐÁP</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('kien-thuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">KIẾN
-                        THỨC</p></a>
+                <a href="#Blog" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">Blog</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{asset('tin-tuc')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">TIN
-                        TỨC</p></a>
-            </li>
-            <li class="contact linemenu">
-                <a href="{{asset('lien-he')}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                <a href="#Lien-he-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
                 </a>
             </li>
         </ul>

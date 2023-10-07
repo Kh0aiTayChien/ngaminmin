@@ -1,4 +1,4 @@
-<div class="section-8">
+<div class="section-8" id="Blog">
     <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
         <img src="{{asset('images/nga-min/sec8/chiasegiatri.png')}}" alt="" style="" class="img-fluid imgsec8-NM">
     </div>

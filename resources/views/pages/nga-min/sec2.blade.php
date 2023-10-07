@@ -1,4 +1,4 @@
-<div class="sec2-NM">
+<div class="sec2-NM" id="">
     <div class="row-test">
         <div class="col-xxl-4 col-md-5 containersec2-NM">
             <p class="text2sec2-GT-test">Do kinh tế khó khăn nên Nga đi làm sớm hơn 6 tháng vì thế bị giảm sữa nhiều.
@@ -52,7 +52,7 @@
     </div>
 </div>
 
-<div class="sec2mb-NM">
+<div class="sec2mb-NM" id="">
     <p class="contentsec2mb-GT">Do kinh tế khó khăn nên Nga đi làm sớm hơn 6 tháng vì thế bị giảm sữa nhiều.
         Con thì không chịu uống sữa ngoài, nên mình rất lo cho con.</p>
     <p class="contentsec2mb-GT">Qua nghiên cứu từ sách vở và nguồn nước ngoài uy tín Nga đã khám phá ra bột ngũ
