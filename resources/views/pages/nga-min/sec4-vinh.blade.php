@@ -17,6 +17,7 @@
             <img src="{{asset('images/nga-min/sec4/Asset 13.png')}}" class="img1sec4-NM">
         </div>
     </div>
+    <div class="" id="Chia-se"></div>
 </div>
 
 <div class="sec4mb-NM">

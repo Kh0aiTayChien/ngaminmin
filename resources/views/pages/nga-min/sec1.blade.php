@@ -1,4 +1,4 @@
-<div class="sec1-NM" id="Gioi-thieu">
+<div class="sec1-NM">
     <div class="row-test">
         <button type="button" class="imgbtn-NM col-xxl-4 col-md-5" data-bs-toggle="modal"
                 data-bs-target="#exampleModal-NM">

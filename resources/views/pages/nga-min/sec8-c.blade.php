@@ -1,4 +1,5 @@
-<div class="section-8" id="Blog">
+<div class="space-8" id="Blog" style="padding-bottom: 5rem"></div>
+<div class="section-8" >
     <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
         <img src="{{asset('images/nga-min/sec8/chiasegiatri.png')}}" alt="" style="" class="img-fluid imgsec8-NM">
     </div>
@@ -199,6 +200,9 @@
             height: 160px;
             width: 404px;
             text-align: center;
+        }
+        .space-8{
+            display: none;
         }
     }
 

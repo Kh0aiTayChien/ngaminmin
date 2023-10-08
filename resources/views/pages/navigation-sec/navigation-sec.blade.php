@@ -2,7 +2,7 @@
     <div class="">
         <img src="{{asset('images/navigation/gioi-thieu.png')}}" alt="" class="mx-auto " style="scale: 70%">
         <div class="d-flex align-content-center justify-content-center">
-{{--            <a href="{{route('gioi-thieu.index')}}" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">TÌM HIỂU THÊM</a>--}}
+            <a href="https://minmincare.com.vn/" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">TÌM HIỂU THÊM</a>
         </div>
     </div>
 </div>
@@ -13,7 +13,7 @@
             <p class="header-test-2-mb">MIN MIN CARE</p>
         </div>
         <div class="d-flex align-content-center justify-content-center">
-{{--            <a href="{{route('gioi-thieu.index')}}" class="btn green-bg btn-block mb-5 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">TÌM HIỂU THÊM</a>--}}
+            <a href="https://minmincare.com.vn/" class="btn green-bg btn-block mb-5 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">TÌM HIỂU THÊM</a>
         </div>
     </div>
 </div>
