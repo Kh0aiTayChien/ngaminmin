@@ -1,4 +1,5 @@
-<div class="section-8" id="Blog">
+<div class="space-8" id="Blog" style="padding-bottom: 5rem"></div>
+<div class="section-8" >
     <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
         <img src="{{asset('images/nga-min/sec8/chiasegiatri.png')}}" alt="" style="" class="img-fluid imgsec8-NM">
     </div>
@@ -22,7 +23,7 @@
                             <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
                             <p class="card-text ">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 77)) }}</p>
                             <div class="d-flex align-content-center justify-content-center mitr-medium ">
-                                <a href="#" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
+                                <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" class="btn green-border green-text btn-sm mb-3 rounded-pill btn-long">XEM
                                     CHI TIẾT</a>
                             </div>
                         </div>
@@ -33,7 +34,7 @@
         </div>
     </div>
     <div class="d-flex align-content-center justify-content-center">
-        <a href="#"
+        <a href="{{asset('/tin-tuc')}}"
            class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium longer-btn shadow-test button-shake">XEM
             THÊM</a>
     </div>
@@ -199,6 +200,9 @@
             height: 160px;
             width: 404px;
             text-align: center;
+        }
+        .space-8{
+            display: none;
         }
     }
 

@@ -1,4 +1,5 @@
-<div class="sec9-NM" id="Lien-he">
+<div class="" id="Lien-he" style="padding-bottom: 2rem"></div>
+<div class="sec9-NM">
     <div class="customer-pc customer-pc-NM ">
         <p class="text1customersec10">Đăng ký đại lý</p>
         <p class="text2customersec10">MIN MIN CARE</p>

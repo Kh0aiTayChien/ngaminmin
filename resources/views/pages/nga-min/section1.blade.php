@@ -12,9 +12,10 @@
         <img src="{{asset('images/nga-min/section1/Asset 6.png')}}" class="col-3">
         <img src="{{asset('images/nga-min/section1/Asset 7.png')}}" class="col-3">
     </div>
+    <div class="" id="Gioi-thieu"></div>
 </div>
 
-<div class="section1mb-NM">
+<div class="section1mb-NM" >
     <img src="{{asset('images/nga-min/section1/Asset 4.png')}}" class="imgsection1mb-NM col-12">
     <div class="containersection1mb-NM">
         <img src="{{asset('images/nga-min/section1/Asset 1.png')}}" class="col-12 contentsection1mb-NM">
