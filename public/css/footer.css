@@ -18,27 +18,27 @@
 }
 
 .logofooter {
-    scale: 80%;
-    transform: translateX(-20%);
+    scale: 75%;
+    transform: translateY(-20%);
 }
 
 
 .phoneicon {
-    width: 15vw;
-    scale: 75%;
-    transform: translateX(-28%) translateY(-55%);
+    /*width: 15vw;*/
+    /*scale: 75%;*/
+    transform: translateX(15%) translateY(-20%);
 }
 
 .emailicon {
-    width: 20vw;
-    scale: 78%;
-    transform: translateX(-23%) translateY(-80%);
+    /*width: 20vw;*/
+    /*scale: 78%;*/
+    transform: translateY(-20%);
 }
 
 .adressicon {
-    width: 20vw;
-    scale: 78%;
-    transform: translateX(-23%) translateY(-100%);
+    /*width: 20vw;*/
+    /*scale: 78%;*/
+    transform: translateY(-20%);
 }
 
 .intro {
@@ -62,10 +62,10 @@
     width: 20vw;
 }
 
-.contentLeftfooter {
-    margin-left: 10%!important;
-    margin-top: -3%!important;
-    transform: translateX(-20%);
+/*.contentLeftfooter {*/
+/*    margin-left: 10%!important;*/
+/*    margin-top: -3%!important;*/
+/*    transform: translateX(-20%);*/
 }
 
 .contentMidfooter {

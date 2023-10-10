@@ -445,62 +445,62 @@
     });
     var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    document.addEventListener('DOMContentLoaded', function() {
-        // Lấy URL hiện tại
-        var currentUrl = window.location.href;
+    {{--document.addEventListener('DOMContentLoaded', function() {--}}
+    {{--    // Lấy URL hiện tại--}}
+    {{--    var currentUrl = window.location.href;--}}
 
-        // Lấy các thẻ <p> và các liên kết tương ứng
-        var gioiThieuLink = document.getElementById('gioi-thieu-link');
-        var sanPhamLink = document.getElementById('san-pham-link');
-        var daiLyLink = document.getElementById('dai-ly-link');
-        var tinTucLink = document.getElementById('tin-tuc-link');
-        var kienThucLink = document.getElementById('kien-thuc-link');
-        var lienHeLink = document.getElementById('lien-he-link');
-        var trangChuLink = document.getElementById('trang-chu-link');
-        var routeName = "{{ asset('/') }}";
+    {{--    // Lấy các thẻ <p> và các liên kết tương ứng--}}
+    {{--    var gioiThieuLink = document.getElementById('gioi-thieu-link');--}}
+    {{--    var sanPhamLink = document.getElementById('san-pham-link');--}}
+    {{--    var daiLyLink = document.getElementById('dai-ly-link');--}}
+    {{--    var tinTucLink = document.getElementById('tin-tuc-link');--}}
+    {{--    var kienThucLink = document.getElementById('kien-thuc-link');--}}
+    {{--    var lienHeLink = document.getElementById('lien-he-link');--}}
+    {{--    var trangChuLink = document.getElementById('trang-chu-link');--}}
+    {{--    var routeName = "{{ asset('/') }}";--}}
 
-        if (currentUrl.indexOf(routeName) !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            trangChuLink.style.color = "#59843D";
-        }
-        if (currentUrl.indexOf("nga-minmin") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            trangChuLink.style.color = "#404041";
-        }
-        // Kiểm tra nếu đang ở link 'gioi-thieu'
-        if (currentUrl.indexOf("gioi-thieu") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            gioiThieuLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
+    {{--    if (currentUrl.indexOf(routeName) !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        trangChuLink.style.color = "#59843D";--}}
+    {{--    }--}}
+    {{--    if (currentUrl.indexOf("nga-minmin") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--    // Kiểm tra nếu đang ở link 'gioi-thieu'--}}
+    {{--    if (currentUrl.indexOf("#Gioi-thieu") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        gioiThieuLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
 
-        // Kiểm tra nếu đang ở link 'san-pham'
-        if (currentUrl.indexOf("san-pham") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            sanPhamLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
-        if (currentUrl.indexOf("dai-ly") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            daiLyLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
-        if (currentUrl.indexOf("tin-tuc") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            tinTucLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
-        if (currentUrl.indexOf("kien-thuc") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            kienThucLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
-        if (currentUrl.indexOf("lien-he") !== -1) {
-            // Đặt màu sắc cho các thẻ tương ứng
-            lienHeLink.style.color = "#59843D";
-            trangChuLink.style.color = "#404041";
-        }
-    });
+    {{--    // Kiểm tra nếu đang ở link 'san-pham'--}}
+    {{--    if (currentUrl.indexOf("san-pham") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        sanPhamLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--    if (currentUrl.indexOf("#Chia-se") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        daiLyLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--    if (currentUrl.indexOf("tin-tuc") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        tinTucLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--    if (currentUrl.indexOf("kien-thuc") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        kienThucLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--    if (currentUrl.indexOf("lien-he") !== -1) {--}}
+    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
+    {{--        lienHeLink.style.color = "#59843D";--}}
+    {{--        trangChuLink.style.color = "#404041";--}}
+    {{--    }--}}
+    {{--});--}}
 </script>
 <script>
     $(document).ready(function () {
