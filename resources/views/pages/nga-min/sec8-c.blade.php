@@ -1,7 +1,8 @@
 <div class="space-8" id="Blog" style="padding-bottom: 5rem"></div>
 <div class="section-8" >
-    <div class="d-flex align-content-center justify-content-center img-sec5 pt-4">
-        <img src="{{asset('images/nga-min/sec8/chiasegiatri.png')}}" alt="" style="" class="img-fluid imgsec8-NM">
+    <div class="sec8-NM">
+        <p class="header1sec6-NM">Nơi Min Min Care</p>
+        <p class="header2sec6-NM">CHIA SẺ GIÁ TRỊ CHO BẠN</p>
     </div>
 
     <div class="slick-carousel position-relative">

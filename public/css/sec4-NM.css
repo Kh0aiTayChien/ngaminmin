@@ -6,15 +6,16 @@
 
 .header1sec4-NM {
     font-family: Mitr-SemiBold, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #59843D;
 }
 
 .header2sec4-NM {
-    font-family: Mitr-Regular, sans-serif;
-    font-size: 40px;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 32px;
     color: #F79420;
-    margin-top: -2%;
+    margin-top: -1.5%;
+    font-weight: 800;
 }
 
 .containersec4-NM {
@@ -27,7 +28,7 @@
 }
 
 .textsec4-NM {
-    font-family: Mulish-SemiBold, sans-serif;
+    font-family: Montserrat-Medium, sans-serif;
     font-size: 18px;
     padding-top: 2%;
     color: white;
@@ -130,16 +131,18 @@
         padding-bottom: 5%;
     }
     .header1sec4-NM {
-        font-size: 27px;
+        font-size: 23px;
     }
 
     .header2sec4-NM {
-        font-size: 22px;
+        font-family: Montserrat-Medium, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
         margin-top: -5%;
     }
     .textsec4-NM {
         text-align: justify;
-        font-family: Mulish-SemiBold, sans-serif;
+        font-family: Montserrat-Medium, sans-serif;
         font-size: 18px;
         color: white;
         width: 90%;

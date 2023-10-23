@@ -1,9 +1,9 @@
 <div class="sec3-NM">
     <div class="row-test">
         <div class="col-xxl-4 col-md-5">
-            <p class="header1sec3-NM">Nhưng</p>
-            <p class="header2sec3-NM">ÁNH SÁNG ĐÓ</p>
-            <p class="header3sec3-NM">KHÔNG TẠO BỞI MỘT NGƯỜI</p>
+            <p class="header1sec3-NM"></p>
+            <p class="header2sec3-NM">NHƯNG ÁNH SÁNG ĐÓ</p>
+            <p class="header3sec3-NM">Không tạo bởi một người</p>
             <p class="text2sec2-GT-test">
                 Để có được ngày hôm nay thì Nga có sự ủng hộ và hỗ trợ rất nhiều từ người thân trong gia đình, bạn bè,
                 nhân công sản xuất. <span class="bold-text">Và đặc biệt không thể không nhắc đến sự đồng hành của những nhà đại lý nhà phân
@@ -45,9 +45,9 @@
 </div>
 
 <div class="sec3mb-NM">
-    <p class="header1sec3-NM">Nhưng</p>
-    <p class="header2sec3-NM">ÁNH SÁNG ĐÓ</p>
-    <p class="header3sec3-NM">KHÔNG TẠO BỞI MỘT NGƯỜI</p>
+    <p class="header1sec3-NM"></p>
+    <p class="header2sec3-NM">NHƯNG ÁNH SÁNG ĐÓ</p>
+    <p class="header3sec3-NM">Không tạo bởi một người</p>
     <p class="contentsec2mb-GT">Để có được ngày hôm nay thì Nga có sự ủng hộ và hỗ trợ rất nhiều từ người thân trong gia
         đình, bạn bè,
         nhân công sản xuất. <span class="bold-text">Và đặc biệt không thể không nhắc đến sự đồng hành của những nhà đại lý nhà phân

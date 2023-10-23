@@ -4,15 +4,22 @@
     padding-top: 2%;
 }
 
+.sec8-NM {
+    /*background-color: #F1F1F2;*/
+    text-align: center;
+    /*padding-top: 2%;*/
+}
+
 .header1sec6-NM {
-    font-family: Mitr-Regular, sans-serif;
-    font-size: 40px;
+    font-family: Montserrat-Medium, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
     color: #F79420;
 }
 
 .header2sec6-NM {
     font-family: Mitr-SemiBold, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #59843D;
     margin-top: -1.25%;
 }

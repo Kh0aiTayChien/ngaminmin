@@ -20,6 +20,15 @@
     src: url("/Fonts/Mulish-ExtraBold.ttf");
 }
 
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("/Fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("/Fonts/Montserrat-Bold.ttf");
+}
+
 .sec4pc {
     background-image: url("/images/sec4/Group 825.png");
     background-repeat: no-repeat;
@@ -112,7 +121,7 @@
 }
 
 .contentsec4 {
-    font-family: 'Mulish-SemiBold', sans-serif;
+    font-family: Montserrat-Medium, sans-serif;
 
 }
 

@@ -2,7 +2,7 @@
     <div class="row-test">
         <button type="button" class="imgbtn-NM col-xxl-4 col-md-5" data-bs-toggle="modal"
                 data-bs-target="#exampleModal-NM">
-            <img src="/images/nga-min/sec1/Asset 1.png" class="buttonvideo-NM col-xxl-12 col-md-12">
+            <img src="/images/nga-min/sec1/2-09.png" class="buttonvideo-NM col-xxl-12 col-md-12">
         </button>
         <div class="modal fade" id="exampleModal-NM" tabindex="-1" aria-labelledby="exampleModalLabel"
              aria-hidden="true">
@@ -13,7 +13,7 @@
                     <div class="modal-body d-flex justify-content-center align-items-center">
                         <div>
                             <iframe id="video-iframe-NM" width="1100" height="600" class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/rExo9QFiew4"
+                                    src="https://www.youtube.com/embed/3bFEAknSu9c?si=GQpV3O89cf6wcSv3"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
@@ -23,8 +23,8 @@
             </div>
         </div>
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
-            <p class="header1sec1-NM">NƠI NHỮNG</p>
-            <p class="header2sec1-NM">ƯỚC MUỐN</p>
+            <p class="header1sec1-NM">NƠI NHỮNG ƯỚC MUỐN</p>
+            <p class="header2sec1-NM"></p>
             <p class="header3sec1-NM">Bị chôn vùi</p>
             <p class="text2sec2-GT-test">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường làm đại lý hoặc tự
                 kinh doanh. Đôi khi bắt đầu bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều có một
@@ -43,17 +43,17 @@
             </p>
         </div>
         <div class="col-xxl-4 col-md-5 headersec2-NM">
-            <p class="header1sec2-NM">ÁNH SÁNG</p>
-            <p class="header2sec2-NM">THƯỜNG ĐẾN VÀO</p>
-            <p class="header3sec2-NM">Những lúc tối tăm nhất</p>
+            <p class="header1sec2-NM">ÁNH SÁNG THƯỜNG ĐẾN</p>
+            <p class="header2sec2-NM"></p>
+            <p class="header3sec2-NM">Vào những lúc tối tăm nhất</p>
         </div>
         <div class="col-xxl-4 col-md-5 containersec2-GT-test"></div>
     </div>
 </div>
 
 <div class="sec1mb-NM" id="Gioi-thieu-mb">
-    <p class="header1sec1-NM">NƠI NHỮNG</p>
-    <p class="header2sec1-NM">ƯỚC MUỐN</p>
+    <p class="header1sec1-NM">NƠI NHỮNG ƯỚC MUỐN</p>
+    <p class="header2sec1-NM"></p>
     <p class="header3sec1-NM">Bị chôn vùi</p>
     <p class="contentsec2mb-GT">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường làm đại lý hoặc tự kinh doanh.
         Đôi khi bắt đầu bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều có một khoảng khắc bạn nhận
@@ -66,14 +66,14 @@
     <p class="contentsec2mb-GT">Từ khi bắt đầu tới thời điểm đó thì Nga đã kinh doanh tổng cộng 7 sản phẩm nhưng chưa có
         lần nào đạt mức mong muốn. Nhưng điều quan trọng là Nga không bỏ cuộc.</p>
     <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
-        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/aSM49MxLHoc" frameborder="0"
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/3bFEAknSu9c?si=GQpV3O89cf6wcSv3" frameborder="0"
                 allowfullscreen></iframe>
         <br>
     </div>
     <div class="headersec2-NM">
-        <p class="header1sec2-NM">ÁNH SÁNG</p>
-        <p class="header2sec2-NM">THƯỜNG ĐẾN VÀO</p>
-        <p class="header3sec2-NM">Những lúc tối tăm nhất</p>
+        <p class="header1sec2-NM">ÁNH SÁNG THƯỜNG ĐẾN</p>
+        <p class="header2sec2-NM"></p>
+        <p class="header3sec2-NM">Vào những lúc tối tăm nhất</p>
     </div>
 </div>
 

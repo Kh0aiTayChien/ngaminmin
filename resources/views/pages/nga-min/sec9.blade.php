@@ -14,7 +14,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care, bạn cần tư vấn về sản phẩm..."
+                      placeholder="Bạn có câu hỏi gì cho chúng tôi"
                       id="address" name="address" required></textarea>
             <br>
 
@@ -25,7 +25,16 @@
     </div>
 </div>
 
-<div class="sec10mb mt-5" id="Lien-he-mb">
+<div class="sec9mb-NM">
+    <img src="{{asset('images/nga-min/sec9/image 29.png')}}" class="col-12">
+    <div class="sec8-NM">
+        <p class="header1sec6-NM col-11  contentsec9mb-NM">Nga và Min Min Care đã sẵn sàng đồng hành cùng bạn trên con đường sắp tới</p>
+        <p class="header2sec6-NM">VẬY CÒN BẠN?</p>
+    </div>
+</div>
+
+
+<div class="sec10mb" id="Lien-he-mb">
     <div class="customer-mb">
         <p class="text1customersec10mb">ĐĂNG KÝ ĐẠI LÝ</p>
         <p class="text2customersec10mb">MIN MIN CARE</p>
@@ -41,7 +50,7 @@
 
             <label for="address"></label>
             <textarea class="svg-input-bot-mb"
-                      placeholder="Bạn quan tâm sản phẩm nào của Min Min Care..."
+                      placeholder="Bạn có câu hỏi gì cho chúng tôi"
                       id="address" name="address" required></textarea>
 
             <button class="customer-button-mb">
