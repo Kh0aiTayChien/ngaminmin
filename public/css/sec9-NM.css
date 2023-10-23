@@ -43,4 +43,14 @@
     .sec9-NM {
         display: none;
     }
+    .sec9mb-NM {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .contentsec9mb-NM {
+        margin-left: 5%;
+        padding-bottom: 2%;
+        padding-top: 3%;
+    }
 }

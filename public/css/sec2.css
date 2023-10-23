@@ -27,16 +27,19 @@
 /*}*/
 
 .header-test-green {
-    font-size: 50px;
+    font-size: 41px;
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843d;
+    margin-top: -2%;
 }
 
 .header-test-orange {
-    font-size: 40px;
-    font-family: Mitr-Regular, sans-serif;
+    font-size: 32px;
+    font-family: Montserrat-Medium, sans-serif;
+    font-weight: 800;
     color: #F79420;
     line-height: 5px;
+
 }
 
 .contentsec2img {

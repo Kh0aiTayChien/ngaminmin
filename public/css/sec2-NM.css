@@ -6,7 +6,7 @@
     text-align: right;
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843D;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .header2sec2-NM {
@@ -14,15 +14,16 @@
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843D;
     font-size: 30px;
-    margin-top: -3%;
+    margin-top: -5%;
 }
 
 .header3sec2-NM {
     text-align: right;
-    font-family: Mitr-Regular, sans-serif;
+    font-family: Montserrat-Medium, sans-serif;
     color: #F79420;
-    font-size: 40px;
+    font-size: 32px;
     margin-top: -3%;
+    font-weight: 800;
 }
 
 .headersec2-NM {
@@ -65,7 +66,7 @@
     }
     .header1sec2-NM {
         text-align: center;
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .header2sec2-NM {
@@ -76,7 +77,7 @@
 
     .header3sec2-NM {
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         margin-top: -5%;
     }
     .utubesec2mb-NM {

@@ -14,16 +14,17 @@
     text-align: right;
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843D;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: -3%;
 }
 
 .header3sec3-NM {
     text-align: right;
-    font-family: Mitr-SemiBold, sans-serif;
-    color: #59843D;
-    font-size: 30px;
-    margin-top: -3%;
+    font-family: Montserrat-Medium, sans-serif;
+    color: #F79420;
+    font-size: 32px;
+    margin-top: -5%;
+    font-weight: 800;
 }
 
 .sec3mb-NM {
@@ -48,8 +49,8 @@
 
     .header2sec3-NM {
         text-align: center;
-        font-size: 30px;
-        margin-top: -5%;
+        font-size: 24px;
+        margin-top: 4%;
     }
 
     .header3sec3-NM {

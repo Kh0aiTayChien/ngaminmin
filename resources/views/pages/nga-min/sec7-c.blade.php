@@ -1,10 +1,13 @@
-<div class="space-7" id="Hoi-dap" style="padding-top: 1rem; background-color: #F1F1F2"></div>
-<div class="space-7" id="" style="padding-top: 6rem; background-color: #F1F1F2"></div>
+<div class="space-7" id="Hoi-dap" style="background-color: #F1F1F2"></div>
+<div class="space-7" id="" style="background-color: #F1F1F2"></div>
 <div class="section-7" >
-    <div class=" d-flex align-content-center justify-content-center pt-4" style="">
-        <img src="{{asset('images/nga-min/sec7/thacmac.png')}}" alt="" class="share-joy" style="">
+{{--    <div class=" d-flex align-content-center justify-content-center pt-4" style="">--}}
+{{--        <img src="{{asset('images/nga-min/sec7/thacmac.png')}}" alt="" class="share-joy" style="">--}}
+{{--    </div>--}}
+    <div class="sec6-NM">
+    <p class="header1sec6-NM">Thắc mắc</p>
+    <p class="header2sec6-NM">THƯỜNG GẶP</p>
     </div>
-
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect">
