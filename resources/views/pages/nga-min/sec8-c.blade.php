@@ -4,6 +4,10 @@
         <p class="header1sec6-NM">Nơi Min Min Care</p>
         <p class="header2sec6-NM">CHIA SẺ GIÁ TRỊ CHO BẠN</p>
     </div>
+    <div class="sec8mb-NM">
+        <p class="header1sec6-NM">Nơi Min Min Care</p>
+        <p class="header2sec8-NM">CHIA SẺ GIÁ TRỊ CHO BẠN</p>
+    </div>
 
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow-8" aria-label="Previous">
@@ -43,6 +47,7 @@
 <style>
     .section-8 {
         /*height: 100vh;*/
+        /*padding-top: 3%;*/
     }
     .font-size-custom{
         font-size: 1rem;

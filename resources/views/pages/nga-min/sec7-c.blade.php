@@ -8,6 +8,10 @@
     <p class="header1sec6-NM">Thắc mắc</p>
     <p class="header2sec6-NM">THƯỜNG GẶP</p>
     </div>
+    <div class="sec6mb-NM">
+        <p class="header1sec6-NM">Thắc mắc</p>
+        <p class="header2sec6-NM">THƯỜNG GẶP</p>
+    </div>
     <div class="slick-carousel position-relative">
         <button class="custom-prev-arrow" aria-label="Previous">
             <img src="{{asset('images/arrow-l.png')}}" alt="Previous" class="shadow-effect">
@@ -29,6 +33,7 @@
 <style>
     .section-7 {
         background-color: #F1F1F2;
+        padding-bottom: 3%;
     }
 
     .wrapper {
@@ -131,7 +136,9 @@
             opacity: 50%;
         }
         .section-7 {
-            height: 65%;
+            /*height: 65%;*/
+            padding-top: 5%;
+            padding-bottom: 5%;
         }
         .share-joy{
             width: 70%;

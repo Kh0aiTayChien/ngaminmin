@@ -125,13 +125,14 @@
         display: block;
         justify-content: center;
         text-align: center;
-        margin-top: 8%;
+        margin-top: 10%;
     }
     .containersec4-NM {
         padding-bottom: 5%;
+        padding-top: 3%;
     }
     .header1sec4-NM {
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .header2sec4-NM {
