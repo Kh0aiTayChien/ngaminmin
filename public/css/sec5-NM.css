@@ -1,6 +1,8 @@
 .sec5-NM {
     display: block;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .text1sec5-NM {
@@ -27,9 +29,9 @@
 }
 
 .text4sec5-NM {
-    font-family: Mitr-SemiBold, sans-serif;
-    width: 70%;
-    margin: auto;
+    text-align: justify;
+    justify-content: right;
+    font-family: Montserrat-Bold, sans-serif;
     font-size: 23px;
     margin-bottom: 3%;
     color: #59843D;;
@@ -37,7 +39,7 @@
 
 @media screen and (max-width: 768px) {
     .sec5-NM {
-        margin-top: 5%;
+        display: none;
     }
     .text1sec5-NM {
         font-size: 23px;
@@ -53,11 +55,15 @@
     }
     .text4sec5-NM {
         font-size: 16px;
-        width: 90%;
+        /*width: 90%;*/
         margin: auto;
         /*font-size: 18px;*/
         margin-bottom: 3%;
-        margin-top: -8%;
+        /*margin-top: -8%;*/
         text-align: justify;
+    }
+    .imgsec5mb-NM {
+        padding-bottom: 5%;
+        padding-top: 5%;
     }
 }

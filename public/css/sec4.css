@@ -25,14 +25,24 @@
     src: url("/Fonts/Montserrat-Medium.ttf");
 }
 @font-face {
+    font-family: 'Montserrat-Black';
+    src: url("/Fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url("/Fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
     font-family: 'Montserrat-Bold';
     src: url("/Fonts/Montserrat-Bold.ttf");
 }
 
 .sec4pc {
-    background-image: url("/images/sec4/Group 825.png");
+    background-image: url("/images/sec4/Asset 4.png");
     background-repeat: no-repeat;
-    background-size: 100% 80%;
+    background-size: 100% 83%;
     background-position: center top 170px;
     /*background-color: aqua;*/
     margin-top: 5%;
@@ -115,9 +125,17 @@
 }
 
 .headersec4 {
-    font-family: 'Mitr-SemiBold', sans-serif;
+    font-family: Montserrat-Black, sans-serif;
     /*filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));*/
     font-size: 20px;
+}
+
+.headersec4-semi {
+    font-family: Montserrat-SemiBold, sans-serif;
+    filter: none;
+    font-size: 18px;
+    line-height: 3px;
+    margin-bottom: 5%;
 }
 
 .contentsec4 {
@@ -159,6 +177,27 @@
 /*    }*/
 /*}*/
 
+@media screen and (max-width: 1500px) {
+    .sec4pc {
+        background-image: url("/images/sec4/Asset 4.png");
+        background-repeat: no-repeat;
+        background-size: 100% 90%;
+        background-position: center top 100px;
+        /*background-color: aqua;*/
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .sec4pc {
+        background-image: url("/images/sec4/Asset 4.png");
+        background-repeat: no-repeat;
+        background-size: 100% 85%;
+        background-position: center top 130px;
+        /*background-color: aqua;*/
+        margin-top: 5%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .sec4pc {
@@ -170,7 +209,9 @@
         justify-content: center;
         background-image: url("/images/sec4/Group 1262.png");
         background-size: cover;
+        padding-top: 2%;
     }
+
     .header1sec4mb {
         justify-content: center;
         width: 100vw;
@@ -181,6 +222,16 @@
         padding-top: 4%;
         filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     }
+    .headersec4-semi {
+        font-family: Montserrat-SemiBold, sans-serif;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
+        font-size: 15px;
+        line-height: 3px;
+        margin-bottom: 8%;
+        color: white;
+
+    }
+
     .header2sec4mb {
         justify-content: center;
         width: 100vw;
@@ -193,8 +244,9 @@
     }
     .contentsec4mb {
         font-size: 15px;
-        margin-left: 10%;
-        width: 80vw;
+        margin:auto;
+        padding-bottom: 5%;
+        width: 85vw;
         font-family: 'Mulish-SemiBold', sans-serif;
         text-align: justify;
         color: white;

@@ -8,9 +8,9 @@
         <img src="{{asset('images/nga-min/section1/Asset 4.png')}}" class="col-xxl-5 col-sm-6 imgsection1-NM">
     </div>
     <div class="row-test threediamond col-12">
-        <img src="{{asset('images/nga-min/section1/Asset 5.png')}}" class="col-3">
-        <img src="{{asset('images/nga-min/section1/Asset 6.png')}}" class="col-3">
-        <img src="{{asset('images/nga-min/section1/Asset 7.png')}}" class="col-3">
+        <img src="{{asset('images/nga-min/section1/Asset a.png')}}" class="col-3">
+        <img src="{{asset('images/nga-min/section1/Asset b.png')}}" class="col-3">
+        <img src="{{asset('images/nga-min/section1/Asset c.png')}}" class="col-3">
     </div>
     <div class="" id="Gioi-thieu"></div>
 </div>
@@ -22,9 +22,9 @@
         <p class="header1section1mb-NM">Đồng hành bởi</p>
         <p class="header2section1mb-NM">NGA MIN MIN</p>
         <div class="row-test col-11 contentsection1mb2-NM">
-            <img src="{{asset('images/nga-min/section1/Asset 9.png')}}" class="col-4">
-            <img src="{{asset('images/nga-min/section1/Asset 10.png')}}" class="col-4">
-            <img src="{{asset('images/nga-min/section1/Asset 11.png')}}" class="col-4">
+            <img src="{{asset('images/nga-min/section1/Asset a.png')}}" class="col-4">
+            <img src="{{asset('images/nga-min/section1/Asset b.png')}}" class="col-4">
+            <img src="{{asset('images/nga-min/section1/Asset c.png')}}" class="col-4">
         </div>
     </div>
 </div>

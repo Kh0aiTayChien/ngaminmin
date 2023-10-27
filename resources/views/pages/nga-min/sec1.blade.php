@@ -13,7 +13,7 @@
                     <div class="modal-body d-flex justify-content-center align-items-center">
                         <div>
                             <iframe id="video-iframe-NM" width="1100" height="600" class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/3bFEAknSu9c?si=GQpV3O89cf6wcSv3"
+                                    src="https://www.youtube.com/embed/RgjCwmywGjE?si=ix38a-PHu2HR__KN"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
@@ -26,20 +26,26 @@
             <p class="header1sec1-NM">NƠI NHỮNG ƯỚC MUỐN</p>
             <p class="header2sec1-NM"></p>
             <p class="header3sec1-NM">Bị chôn vùi</p>
-            <p class="text2sec2-GT-test">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường làm đại lý hoặc tự
-                kinh doanh. Đôi khi bắt đầu bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều có một
-                khoảng khắc bạn nhận ra rằng con đường này không phải lúc nào cũng dễ dàng.
+            <p class="text2sec2-GT-test">
+                Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường kinh doanh. Đôi khi bắt đầu bởi vì sở thích và
+                có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều sẽ có khoảnh khắc bạn nhận ra rằng con đường này không
+                phải lúc nào cũng dễ dàng.
             </p>
             <p class="text2sec2-GT-test">
-                Cách đây khoảng 10 năm mình kết hôn. Đây là thời điểm mà gia đình chồng mình gặp biến cố lớn.
+                Cách đây khoảng 8 năm mình kết hôn. Đây là thời điểm mà gia đình mình rất khó khăn.
             </p>
             <p class="text2sec2-GT-test">
-                Thời gian đó bữa sáng mình chỉ dám ăn 3 nghìn tiền xôi, hiếm lắm mới có bữa 12 nghìn tiền bún chả, còn
-                bữa tối hai vợ chồng chỉ có 20 nghìn tiền ăn mỗi hôm.
+                Thời gian đó bữa sáng mình chỉ dám ăn 3 nghìn tiền xôi, hiếm lắm mới có bữa 15 nghìn tiền bún chả, toàn
+                xin nhiều bún ăn cho no, còn bữa tối hai vợ chồng chỉ có 20 nghìn tiền ăn mỗi hôm.
             </p>
             <p class="text2sec2-GT-test">
-                Từ khi bắt đầu tới thời điểm đó thì Nga đã kinh doanh tổng cộng 7 sản phẩm nhưng chưa có lần nào đạt mức
-                mong muốn. Nhưng điều quan trọng là Nga không bỏ cuộc.
+                Do kinh tế khó khăn nên Nga đi làm sớm hơn 6 tháng vì thế bị giảm sữa nhiều. Con thì không chịu uống sữa
+                ngoài, nên mình rất lo cho con.
+            </p>
+            <p class="text2sec2-GT-test">
+                Qua nghiên cứu từ sách vở và nguồn tài liệu uy tín Nga đã khám phá ra bột ngũ cốc từ các loại hạt giúp
+                tăng cường lượng sữa cho con. Tuy nhiên, chất lượng sản phẩm trên thị trường thời điểm đó chưa đáp ứng
+                được nhu cầu của Nga.
             </p>
         </div>
         <div class="col-xxl-4 col-md-5 headersec2-NM">
@@ -47,7 +53,7 @@
             <p class="header2sec2-NM"></p>
             <p class="header3sec2-NM">Vào những lúc tối tăm nhất</p>
         </div>
-        <div class="col-xxl-4 col-md-5 containersec2-GT-test"></div>
+        <div class="col-xxl-4 col-sm-5 containersec2-GT-test"></div>
     </div>
 </div>
 
@@ -55,18 +61,22 @@
     <p class="header1sec1-NM">NƠI NHỮNG ƯỚC MUỐN</p>
     <p class="header2sec1-NM"></p>
     <p class="header3sec1-NM">Bị chôn vùi</p>
-    <p class="contentsec2mb-GT">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường làm đại lý hoặc tự kinh doanh.
-        Đôi khi bắt đầu bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều có một khoảng khắc bạn nhận
-        ra rằng con đường này không phải lúc nào cũng dễ dàng.
+    <p class="contentsec2mb-GT">Mỗi người sẽ có một lý do khác nhau khi bắt đầu con đường kinh doanh. Đôi khi bắt đầu
+        bởi vì sở thích và có khi bắt đầu bởi hoàn cảnh bắt buộc. Nhưng đều sẽ có khoảnh khắc bạn nhận ra rằng con đường
+        này không phải lúc nào cũng dễ dàng.
     </p>
     <p class="contentsec2mb-GT">Cách đây khoảng 10 năm mình kết hôn. Đây là thời điểm mà gia đình chồng mình gặp biến cố
         lớn.</p>
-    <p class="contentsec2mb-GT">Thời gian đó bữa sáng mình chỉ dám ăn 3 nghìn tiền xôi, hiếm lắm mới có bữa 12 nghìn
-        tiền bún chả, còn bữa tối hai vợ chồng chỉ có 20 nghìn tiền ăn mỗi hôm.</p>
-    <p class="contentsec2mb-GT">Từ khi bắt đầu tới thời điểm đó thì Nga đã kinh doanh tổng cộng 7 sản phẩm nhưng chưa có
-        lần nào đạt mức mong muốn. Nhưng điều quan trọng là Nga không bỏ cuộc.</p>
+    <p class="contentsec2mb-GT">Thời gian đó bữa sáng mình chỉ dám ăn 3 nghìn tiền xôi, hiếm lắm mới có bữa 15 nghìn
+        tiền bún chả, toàn xin nhiều bún ăn cho no, còn bữa tối hai vợ chồng chỉ có 20 nghìn tiền ăn mỗi hôm.</p>
+    <p class="contentsec2mb-GT">Do kinh tế khó khăn nên Nga đi làm sớm hơn 6 tháng vì thế bị giảm sữa nhiều. Con thì
+        không chịu uống sữa ngoài, nên mình rất lo cho con.</p>
+    <p class="contentsec2mb-GT">Qua nghiên cứu từ sách vở và nguồn tài liệu uy tín Nga đã khám phá ra bột ngũ cốc từ các
+        loại hạt giúp tăng cường lượng sữa cho con. Tuy nhiên, chất lượng sản phẩm trên thị trường thời điểm đó chưa đáp
+        ứng được nhu cầu của Nga.</p>
     <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
-        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/3bFEAknSu9c?si=GQpV3O89cf6wcSv3" frameborder="0"
+        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/RgjCwmywGjE?si=ix38a-PHu2HR__KN"
+                frameborder="0"
                 allowfullscreen></iframe>
         <br>
     </div>
@@ -93,6 +103,7 @@
             iframe.src = iframe.src;
         }
     }, true);
+
     // Hàm tính toán và đặt chiều rộng theo tỷ lệ màn hình điện thoại
     function setIframeWidth() {
         var screenWidth = $(window).width();

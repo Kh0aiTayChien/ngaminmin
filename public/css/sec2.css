@@ -30,7 +30,8 @@
     font-size: 41px;
     font-family: Mitr-SemiBold, sans-serif;
     color: #59843d;
-    margin-top: -2%;
+    /*margin-top: -2%;*/
+    line-height: 25px;
 }
 
 .header-test-orange {
@@ -39,7 +40,6 @@
     font-weight: 800;
     color: #F79420;
     line-height: 5px;
-
 }
 
 .contentsec2img {
