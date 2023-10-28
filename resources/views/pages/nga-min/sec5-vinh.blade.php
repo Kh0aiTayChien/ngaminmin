@@ -1,8 +1,8 @@
 <div class="sec5-NM">
     <p class="text1sec5-NM">MỘT SỨ MỆNH</p>
-    <p class="text2sec5-NM">Thiêng liêng</p>
+    <p class="text2sec5-NM headersec5-NM">Thiêng liêng</p>
     <div class="row-test">
-        <img src="{{asset('images/nga-min/sec3/34.jpg')}}" class="col-xxl-4 col-md-5 imgsec3-NM">
+        <img src="{{asset('images/nga-min/sec3/28.100.jpg')}}" class="col-xxl-4 col-md-5 imgsec4-NM">
         <div class="col-xxl-4 col-md-5 containersec2-GT-test">
             <p class="text2sec2-GT-test">
                 Min Min Care mang đến giải pháp dinh dưỡng tự nhiên, cao cấp, toàn diện, chuyên biệt, số 1 được nghiên
@@ -35,5 +35,5 @@
     <p class="text4sec5-NM col-11">
         NGA VÀ ĐẠI GIA ĐÌNH MIN MIN CARE ĐÃ VÀ ĐANG THỰC HIỆN SỨ MỆNH ẤY
         VÀ CHÚNG MÌNH LUÔN CHÀO ĐÓN BẠN!</p>
-    <img src="{{asset('images/nga-min/sec3/34.jpg')}}" class="col-11 imgsec5mb-NM">
+    <img src="{{asset('images/nga-min/sec3/28.100.jpg')}}" class="col-11 imgsec5mb-NM">
 </div>
