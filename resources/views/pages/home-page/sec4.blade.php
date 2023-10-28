@@ -1,7 +1,7 @@
 <div class="sec4pc">
     <div class="content1sec4-HP">
         <div class="row-test">
-            <img src="{{asset('images/sec4/nga min-01.png')}}" class="col-xxl-4 col-md-5 img1sec4-HP">
+            <img src="{{asset('images/sec4/3 cái-10.png')}}" class="col-xxl-4 col-md-5 img1sec4-HP">
             <div class="col-xxl-4 col-md-5 container1sec4-HP">
                 <p class="header-test-orange">Niềm tự hào của</p>
                 <p class="header-test-green">MIN MIN CARE</p><br><br>
@@ -84,11 +84,11 @@
                     </svg>
                 </a>
             </div>
-            <img src="{{asset('images/sec4/nga min-02.png')}}" class="col-xxl-4 col-md-5 img2sec4-HP">
+            <img src="{{asset('images/sec4/3 cái-11.png')}}" class="col-xxl-4 col-md-5 img2sec4-HP">
         </div>
     </div>
     <div class="row-test">
-        <img src="{{asset('images/sec4/sua hat dinh duong-white (1).jpg')}}" class="col-xxl-4 col-md-5 img1sec4-HP">
+        <img src="{{asset('images/sec4/3 cái-12.png')}}" class="col-xxl-4 col-md-5 img1sec4-HP">
         <div class="col-xxl-4 col-md-5 container1sec4-HP">
             <p class="headersec4 content1sec4">SỮA HẠT DINH DƯỠNG</p>
             <p class="headersec4-semi content1sec4">Cả nhà uống ngon, Cùng nhau sống khỏe
@@ -140,7 +140,7 @@
         omega-3, chất chống oxy hóa. Sản phẩm được dựa trên công thức CO-NUMAX đột phá được nghiên cứu độc quyền
         nhằm
         giúp tối đa hóa nhu cầu dinh dưỡng toàn diện dành riêng cho mẹ bầu.</p>
-    <img src="{{asset('images/sec4/nga min-01.png')}}" class="bannersec4mb">
+    <img src="{{asset('images/sec4/3 cái-10.png')}}" class="bannersec4mb">
     <a href="{{asset('san-pham')}}" class="decoration">
         <svg class="button2mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
@@ -174,7 +174,7 @@
     <p class="contentsec4mb">Tăng cường khả năng sản xuất lượng sữa tự nhiên cho mẹ chỉ sau 1 tuần sử dụng. Ngoài bổ
         sung dinh dưỡng, khoáng chất, vitamin mà còn giúp mẹ sau sinh hồi phục sức khỏe, tăng sức đề kháng, hệ miễn
         dịch, ngăn ngừa lão hóa, nhanh lành vết thương nhờ vào việc ứng dụng công nghệ Nano Curcumin vào sản phẩm.</p>
-    <img src="{{asset('images/sec4/nga min-02.png')}}" class="bannersec4mb">
+    <img src="{{asset('images/sec4/3 cái-11.png')}}" class="bannersec4mb">
     <a href="{{asset('san-pham')}}" class="decoration">
         <svg class="button2mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
@@ -211,7 +211,7 @@
         30 loại axit amin, vitamin và khoáng chất cần thiết cho sự phát triển toàn diện của cơ thể, tăng cường
         hệ miễn dịch, tốt cho trí não, tim mạch, hệ tiêu hóa, phát triển chiều cao, xương khớp.
     </p>
-    <img src="{{asset('images/sec4/nga min-01.png')}}" class="bannersec4mb">
+    <img src="{{asset('images/sec4/3 cái-12.png')}}" class="bannersec4mb">
     <a href="{{asset('san-pham')}}" class="decoration">
         <svg class="button2mb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
