@@ -252,7 +252,8 @@
         color: white;
     }
     .bannersec4mb {
-        width: 80vw;
+        width: 85vw;
+        filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.3));
     }
     .button2mb {
         width: 38vw;
