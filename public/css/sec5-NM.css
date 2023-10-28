@@ -12,6 +12,7 @@
     margin-top: 3%;
 }
 
+
 .text2sec5-NM {
     font-family: Montserrat-Medium, sans-serif;
     font-weight: 800;
@@ -35,6 +36,10 @@
     font-size: 23px;
     margin-bottom: 3%;
     color: #59843D;;
+}
+
+.headersec5-NM {
+    margin-bottom: 3%;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,7 +68,7 @@
         text-align: justify;
     }
     .imgsec5mb-NM {
-        padding-bottom: 5%;
-        padding-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 15px;
     }
 }
