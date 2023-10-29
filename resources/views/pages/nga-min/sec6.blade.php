@@ -119,7 +119,7 @@
     // }
 
     // Gọi hàm setIframeWidth khi trang web được tải và khi thay đổi kích thước màn hình
-    $(window).on('load resize', setIframeWidthsec6NM);
+    // $(window).on('load resize', setIframeWidthsec6NM);
 
     var modal = document.getElementById('exampleModal-NM-sec6');
     var iframe = document.getElementById('video-iframe-NM-sec6');
