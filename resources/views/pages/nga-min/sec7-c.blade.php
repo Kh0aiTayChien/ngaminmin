@@ -21,12 +21,12 @@
         </button>
 
         <div class="carousel-sec-7">
-            <div><img src="{{asset('images/nga-min/sec7/Asset 12 (2).png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/nga-min/sec7/Asset 13 (2).png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/nga-min/sec7/Asset 14.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/nga-min/sec7/Asset 15.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/nga-min/sec7/Asset 17.png')}}" class="img-fluid"></div>
-            <div><img src="{{asset('images/nga-min/sec7/Asset 12 (2).png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-02.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-03.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-04.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-05.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-02.png')}}" class="img-fluid"></div>
+            <div><img src="{{asset('images/nga-min/sec7/2-5-03.png')}}" class="img-fluid"></div>
         </div>
     </div>
 </div>
