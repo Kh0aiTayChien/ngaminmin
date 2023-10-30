@@ -1,4 +1,5 @@
 <div class="sec4-NM">
+    <div id="chia-se"></div>
     <p class="header1sec4-NM">NƠI NHỮNG ƯỚC MUỐN</p>
     <p class="header2sec4-NM">Được chắp cánh</p>
     <div class="containersec4-NM">
@@ -17,9 +18,7 @@
             <img src="{{asset('images/nga-min/sec4/Asset 13.png')}}" class="img1sec4-NM">
         </div>
     </div>
-    <div class="" id="Chia-se"></div>
 </div>
-
 <div class="sec4mb-NM">
     <p class="header1sec4-NM">NƠI NHỮNG ƯỚC MUỐN</p>
     <p class="header2sec4-NM">Được chắp cánh</p>
@@ -41,7 +40,6 @@
     </div>
     <object data="{{asset('images/sec2/Group 1344.png')}}" class="headersec4mb" id="Chia-se-mb"></object>
 </div>
-
 <script>
     $(document).ready(function sec4NM() {
         $('.slidesec4-NM').slick({

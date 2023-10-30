@@ -37,6 +37,7 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/kien-thuc/dinh-duong-cho-con', [Knowledge3Controller::class, 'index'])->name('kien-thuc.dinh-duong-cho-con.index');
 //Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('gioi-thieu.index');
 Route::get('/', [NgaMinController::class, 'index'])->name('Nga-min.index');
+Route::get('/thong-tin/{section}', [NgaMinController::class, 'index'])->name('Nga-min.index.section');
 //Route::get('/dai-ly', [SalesAgentController::class,'index'])->name('dai-ly.index');
 Route::get('/tin-tuc', [NewsController::class, 'index'])->name('tin-tuc.index');
 Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('tin-tuc.show');

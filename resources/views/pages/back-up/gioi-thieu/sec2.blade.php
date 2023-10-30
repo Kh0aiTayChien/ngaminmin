@@ -1,4 +1,4 @@
-<div class="sec2mb-GT">
+<div class="sec2mb-GT" >
     <object data="{{asset('images/gioi-thieu/sec2/Group 1337.png')}}" class="header1sec2mb-GT"></object>
     <p class="contentsec2mb-GT">TẦM NHÌN : Minmin Care trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm ngũ
         cốc dinh dưỡng và sức khỏe cho gia đình Việt</p>

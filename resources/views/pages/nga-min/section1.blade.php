@@ -1,4 +1,5 @@
-<div class="section1-NM">
+<div class="section1-NM" >
+    <div class="" ></div>
     <div class="row-test introduce-NM">
         <div class="col-xxl-4 col-sm-5">
             <img src="{{asset('images/nga-min/section1/Asset 1.png')}}" class="containersection1-NM col-xxl-12 col-sm-12">
@@ -12,7 +13,6 @@
         <img src="{{asset('images/nga-min/section1/Asset b.png')}}" class="col-3">
         <img src="{{asset('images/nga-min/section1/Asset c.png')}}" class="col-3">
     </div>
-    <div class="" id="Gioi-thieu"></div>
 </div>
 
 <div class="section1mb-NM" >
