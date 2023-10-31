@@ -1,5 +1,4 @@
 <div class="sec4-NM">
-    <div id="chia-se"></div>
     <p class="header1sec4-NM">NƠI NHỮNG ƯỚC MUỐN</p>
     <p class="header2sec4-NM">Được chắp cánh</p>
     <div class="containersec4-NM">
