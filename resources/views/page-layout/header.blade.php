@@ -346,7 +346,7 @@
                 <a href="{{route('Nga-min.index.section',['section' => 'chia-se'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">CHIA SẺ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="{{route('Nga-min.index.section',['section' => 'hoi-dap-mobile'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">HỎI ĐÁP</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'hoi-dap'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">HỎI ĐÁP</p></a>
             </li>
             <li class="contact linemenu">
                 <a href="/tin-tuc" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">Blog</p></a>
@@ -456,25 +456,11 @@
         if (match) {
             var section = match[1]; // Lấy phần cuối của URL
 
-            var targetElement = $('#' + section);
+            var targetElement = $('.' + section); // Sửa đổi đây để chọn thẻ có lớp tương ứng
+            console.log(targetElement)
+            window.location.href = '#' + section;
 
-            if (targetElement.length > 0) {
-                var elOffset = targetElement.offset().top;
-                var elHeight = targetElement.height();
-                var windowHeight = $(window).height();
-                var offset;
 
-                if (elHeight < windowHeight) {
-                    offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
-                }
-                else {
-                    offset = elOffset;
-                }
-
-                $('html, body').animate({
-                    scrollTop: offset
-                }, 1000); // Cuộn trang đến phần tử có ID tương ứng
-            }
         }
     });
 

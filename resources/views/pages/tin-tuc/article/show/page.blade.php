@@ -15,10 +15,18 @@
     <div class="content p-3 pb-5">
         {!! $article->content!!}
     </div>
-
+    <div class="d-flex align-content-center justify-content-start">
+        <a href="{{route('tin-tuc.index')}}" class="btn green-bg btn-block mb-3 rounded-pill border-2 border-white text-white mitr-medium super-long shadow-test button-shake">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
+              <style>svg{fill:#ffffff}</style><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            Xem nhiều bài hơn...</a>
+    </div>
 </div>
 <style>
     body{
+    }
+    .super-long{
+      width: 250px
     }
     .datetime_text{
         font-family: Mulish-SemiBold, sans-serif;

@@ -1,5 +1,5 @@
+
 <div class="sec5-NM">
-    <div class="" id="hoi-dap"></div>
     <p class="text1sec5-NM">MỘT SỨ MỆNH</p>
     <p class="text2sec5-NM headersec5-NM">Thiêng liêng</p>
     <div class="row-test">
