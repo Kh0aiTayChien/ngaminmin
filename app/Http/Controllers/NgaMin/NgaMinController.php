@@ -14,7 +14,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 class NgaMinController extends Controller
 {
-    public function index(Request $request)
+    public function index(Request $request, $section = null)
     {
         SEOMeta::setTitle('MinMinCare');
         SEOMeta::setDescription('Xây dựng độc lập, tự chủ để nâng tầm chất lượng cuộc sống dù bạn là ai, ở đâu hay đội tuổi nào');

@@ -1,4 +1,5 @@
-<div class="sec4pc">
+<div class="" id="chia-se" style="margin-bottom: 8%"></div>
+<div class="sec4pc" >
     <div class="content1sec4-HP">
         <div class="row-test">
             <img src="{{asset('images/sec4/3 cái-10.png')}}" class="col-xxl-4 col-md-5 img1sec4-HP">
@@ -12,7 +13,7 @@
                     folic, chất xơ, vitamin
                     D, sắt, canxi, omega-3, chất chống oxy hóa. Sản phẩm được dựa trên công thức CO-NUMAX đột phá được
                     nghiên cứu độc quyền nhằm giúp tối đa hóa nhu cầu dinh dưỡng toàn diện dành riêng cho mẹ bầu.</p>
-                <a href="https://minmincare.com.vn/san-pham-ngu-coc">
+                <a href="https://minmincare.com.vn/san-pham/ngu-coc-loi-sua">
                     <svg class="button2 button-shake" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink"
                          width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
@@ -55,7 +56,7 @@
                     khỏe, tăng sức đề kháng, hệ miễn dịch, ngăn ngừa lão hóa, nhanh lành vết thương nhờ vào việc ứng
                     dụng công nghệ Nano Curcumin vào sản phẩm.
                 </p>
-                <a href="https://minmincare.com.vn/san-pham-ngu-coc">
+                <a href="https://minmincare.com.vn/san-pham/ngu-coc-me-bau">
                     <svg class="button2 button-shake" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink"
                          width="283.2" height="90.24" viewBox="0 0 283.2 90.24">
@@ -98,7 +99,7 @@
                 30 loại axit amin, vitamin và khoáng chất cần thiết cho sự phát triển toàn diện của cơ thể, tăng cường
                 hệ miễn dịch, tốt cho trí não, tim mạch, hệ tiêu hóa, phát triển chiều cao, xương khớp.
             </p>
-            <a href="https://minmincare.com.vn/san-pham-ngu-coc">
+            <a href="https://minmincare.com.vn/san-pham/sua-hat-dinh-duong">
                 <svg class="button2 button-shake" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink"
                      width="283.2" height="90.24" viewBox="0 0 283.2 90.24">

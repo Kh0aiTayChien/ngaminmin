@@ -1,4 +1,5 @@
-<div class="" id="Lien-he" style="padding-bottom: 2rem"></div>
+<div  id="lien-he"></div>
+<div class="" style="padding-bottom: 2rem"></div>
 <div class="sec9-NM">
     <div class="customer-pc customer-pc-NM ">
         <p class="text1customersec10">Đăng ký đại lý</p>
@@ -32,8 +33,6 @@
         <p class="header2sec6-NM">VẬY CÒN BẠN?</p>
     </div>
 </div>
-
-
 <div class="sec10mb" id="Lien-he-mb">
     <div class="customer-mb">
         <p class="text1customersec10mb">ĐĂNG KÝ ĐẠI LÝ</p>

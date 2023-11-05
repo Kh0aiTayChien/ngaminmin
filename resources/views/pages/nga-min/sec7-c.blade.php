@@ -1,6 +1,8 @@
-<div class="space-7" id="Hoi-dap" style="background-color: #F1F1F2"></div>
-<div class="space-7" id="" style="background-color: #F1F1F2"></div>
+<div  id="hoi-dap" style="margin-bottom: 5%;background-color: #F1F1F2"></div>
+<div class="space-7" style="background-color: #F1F1F2"></div>
+<div class="space-7"  style="background-color: #F1F1F2"></div>
 <div class="section-7" >
+
 {{--    <div class=" d-flex align-content-center justify-content-center pt-4" style="">--}}
 {{--        <img src="{{asset('images/nga-min/sec7/thacmac.png')}}" alt="" class="share-joy" style="">--}}
 {{--    </div>--}}

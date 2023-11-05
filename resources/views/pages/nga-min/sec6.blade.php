@@ -1,4 +1,4 @@
-<div class="sec6-NM">
+<div class="sec6-NM"  >
     <p class="header1sec6-NM">Nơi chứa đựng</p>
     <p class="header2sec6-NM">NIỀM VUI</p>
     <div class="row-test">
@@ -77,7 +77,7 @@
     </div>
     <div class="" id="" style=""></div>
 </div>
-<div class="sec6mb-NM">
+<div class="sec6mb-NM" id="thong-tin-mobile" >
     <p class="header1sec6-NM">Nơi chứa đựng</p>
     <p class="header2sec6-NM">NIỀM VUI</p>
     <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">

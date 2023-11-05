@@ -3,34 +3,34 @@
     <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-xxl-3 col-md-4 menuleft">
             <li class="col-xxl-4 col-md-4">
-                <a href="#" id="trang-chu-link">
+                <a href="/" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="#Gioi-thieu" id="gioi-thieu-link">
+                <a href="{{route('Nga-min.index.section',['section' => 'gioi-thieu'])}}" id="gioi-thieu-link">
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="#Chia-se" id="dai-ly-link"><p>CHIA SẺ</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'chia-se'])}}" id="dai-ly-link"><p>CHIA SẺ</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-4 logominmin">
-            <a href="#"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
+            <a href="/"><img src="{{asset('images/header/Group 903.svg')}}" class="logo-test col-xxl-11 col-md-11"></a>
         </div>
         <ul class="col-xxl-3 col-md-4 menuright">
 {{--            <li class="col-xxl-3 col-md-3">--}}
 {{--                <a href="{{asset('dai-ly')}}" id="dai-ly-link"><p>ĐẠI LÝ</p></a>--}}
 {{--            </li>--}}
             <li class="col-xxl-4 col-md-4">
-                <a href="#Hoi-dap" id="tin-tuc-link"><p>HỎI ĐÁP</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'hoi-dap'])}}" id="tin-tuc-link"><p>HỎI ĐÁP</p></a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="#Blog" id="kien-thuc-link"><p>BLOG</p></a>
+                <a href="/tin-tuc" id="kien-thuc-link"><p>BLOG</p></a>
             </li>
             <li class="col-xxl-4 col-md-4">
-                <a href="#Lien-he" id="lien-he-link"><p>LIÊN HỆ</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'lien-he'])}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
@@ -338,27 +338,26 @@
                         class="textlink textlinktop">TRANG CHỦ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Gioi-thieu-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p
+                <a href="{{route('Nga-min.index.section',['section' => 'gioi-thieu'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p
                         class="textlink">GIỚI
                         THIỆU</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Chia-se-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">CHIA SẺ</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'chia-se'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">CHIA SẺ</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Hoi-dap" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">HỎI ĐÁP</p></a>
+                <a href="{{route('Nga-min.index.section',['section' => 'hoi-dap'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">HỎI ĐÁP</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Blog" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">Blog</p></a>
+                <a href="/tin-tuc" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">Blog</p></a>
             </li>
             <li class="contact linemenu">
-                <a href="#Lien-he-mb" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
+                <a href="{{route('Nga-min.index.section',['section' => 'lien-he'])}}" class="linktext aniUtil_dramatic ani_fadeIn"><p class="textlink">LIÊN HỆ</p>
                 </a>
             </li>
         </ul>
     </nav>
 </div>
-
 
 <script>
     $(document).ready(function() {
@@ -445,222 +444,25 @@
     });
     var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    {{--document.addEventListener('DOMContentLoaded', function() {--}}
-    {{--    // Lấy URL hiện tại--}}
-    {{--    var currentUrl = window.location.href;--}}
-
-    {{--    // Lấy các thẻ <p> và các liên kết tương ứng--}}
-    {{--    var gioiThieuLink = document.getElementById('gioi-thieu-link');--}}
-    {{--    var sanPhamLink = document.getElementById('san-pham-link');--}}
-    {{--    var daiLyLink = document.getElementById('dai-ly-link');--}}
-    {{--    var tinTucLink = document.getElementById('tin-tuc-link');--}}
-    {{--    var kienThucLink = document.getElementById('kien-thuc-link');--}}
-    {{--    var lienHeLink = document.getElementById('lien-he-link');--}}
-    {{--    var trangChuLink = document.getElementById('trang-chu-link');--}}
-    {{--    var routeName = "{{ asset('/') }}";--}}
-
-    {{--    if (currentUrl.indexOf(routeName) !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        trangChuLink.style.color = "#59843D";--}}
-    {{--    }--}}
-    {{--    if (currentUrl.indexOf("nga-minmin") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--    // Kiểm tra nếu đang ở link 'gioi-thieu'--}}
-    {{--    if (currentUrl.indexOf("#Gioi-thieu") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        gioiThieuLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-
-    {{--    // Kiểm tra nếu đang ở link 'san-pham'--}}
-    {{--    if (currentUrl.indexOf("san-pham") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        sanPhamLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--    if (currentUrl.indexOf("#Chia-se") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        daiLyLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--    if (currentUrl.indexOf("tin-tuc") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        tinTucLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--    if (currentUrl.indexOf("kien-thuc") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        kienThucLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--    if (currentUrl.indexOf("lien-he") !== -1) {--}}
-    {{--        // Đặt màu sắc cho các thẻ tương ứng--}}
-    {{--        lienHeLink.style.color = "#59843D";--}}
-    {{--        trangChuLink.style.color = "#404041";--}}
-    {{--    }--}}
-    {{--});--}}
 </script>
+
 <script>
-    $(document).ready(function () {
-        $('.buy-button').on('click', function () {
-            let productId = $(this).data('id');
-            let csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $.ajax({
-                url: '/buy-action',
-                method: 'POST',
-                data: {
-                    product: productId,
-                    _token: csrfToken,
-                },
-                success: function (response) {
-                    $('.cart').trigger('click');
-                    if (response.status === undefined) {
-                        $('.cart-product-list').append(response);
-                        $('.empty-image').addClass('d-none');
-                    } else if (response.status === 'exist_cart') {
-                        let quantity = response.quantity;
-                        let cart = response.cart;
-                        $("#" + cart).find(".quantity").text(quantity);
-                    }
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý khi có lỗi xảy ra
-                    console.error(error);
-                }
-            });
-        });
+    $(document).ready(function() {
+        var url = window.location.href;
+        var regex = /\/thong-tin\/([^\/]+)/; // Regex để bắt phần cuối của URL sau "thong-tin/"
 
-        $(document).on('click', '.plus', function () {
-            $('body').prop('disabled', true);
-            let cartID = $(this).data('id');
-            let csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $.ajax({
-                url: '/plus',
-                method: 'POST',
-                data: {
-                    cart: cartID,
-                    _token: csrfToken,
-                },
-                success: function (response) {
-                    if (response.status === "ok") {
-                        let quantity = response.quantity;
-                        let cart = response.cart;
-                        $("#" + cart).find(".quantity").text(quantity);
-                    }
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý khi có lỗi xảy ra
-                    console.error(error);
-                }
-            });
-            setTimeout(function () {
-                $('body').prop('disabled', false);
-            }, 200);
-        });
+        var match = url.match(regex);
 
-        $(document).on('click', '.subtraction', function () {
-            let cartID = $(this).data('id');
-            console.log(cartID);
-            let csrfToken = $('meta[name="csrf-token"]').attr('content');
-            $.ajax({
-                url: '/subtraction',
-                method: 'POST',
-                data: {
-                    cart: cartID,
-                    _token: csrfToken,
-                },
-                success: function (response) {
-                    if (response.status === "ok") {
-                        let quantity = response.quantity;
-                        let cart = response.cart;
-                        $("#" + cart).find(".quantity").text(quantity);
-                    } else if (response.status === "delete") {
-                        let cart = response.cart;
-                        $("#" + cart).remove();
-                        if ($('.cart-product-list').find('.card-cart').length == 0) {
-                            $('.empty-image').removeClass('d-none');
-                        }
-                    }
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý khi có lỗi xảy ra
-                    console.error(error);
-                }
-            });
-        });
+        if (match) {
+            var section = match[1]; // Lấy phần cuối của URL
 
-        $(document).on('click', '.cancel-item', function () {
-            let cartID = $(this).data('id');
-            let csrfToken = $('meta[name="csrf-token"]').attr('content');
+            var targetElement = $('.' + section); // Sửa đổi đây để chọn thẻ có lớp tương ứng
+            console.log(targetElement)
+            window.location.href = '#' + section;
 
-            $.ajax({
-                url: '/delete_cart',
-                method: 'POST',
-                data: {
-                    cart: cartID,
-                    _token: csrfToken,
-                },
-                success: function (response) {
-                    let cart = response.cart;
-                    $("#" + cart).remove();
-                    if ($('.cart-product-list').find('.card-cart').length == 0) {
-                        $('.empty-image').removeClass('d-none');
-                    }
-                    console.log($("#" + cart))
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý khi có lỗi xảy ra
-                    console.error(error);
-                }
-            });
-        });
 
-        $('#cart-form').submit(function (e) {
-            e.preventDefault();
-            let name = $('.name').val()
-            let phone = $('.phone').val()
-            let address = $('.address').val()
-            let csrfToken = $('meta[name="csrf-token"]').attr('content');
-
-            $.ajax({
-                url: '/send',
-                method: 'POST',
-                data: {
-                    name: name,
-                    phone: phone,
-                    address: address,
-                },
-                headers: {
-                    'X-CSRF-TOKEN': csrfToken
-                },
-                success: function (response) {
-                    $('.card-cart').remove();
-                    $('.lds-dual-ring').removeClass('d-none');
-                    $('.empty-image').addClass('d-none');
-                    setTimeout(function () {
-                        $('.cart-product-list').hide();
-                        $('.send-form').hide();
-                        $('.lds-dual-ring').addClass('d-none');
-                        $('.send-image').removeClass('d-none'); // Ẩn lớp 'send-image' sau 5 giây
-                    }, 1500);
-                    setTimeout(function () {
-                        $('.empty-image').removeClass('d-none');
-                        $('.send-image').addClass('d-none'); // Ẩn lớp 'send-image' sau 5 giây
-                        $('.cart-product-list').show(); // Ẩn lớp 'cart-product-list' sau 5 giây
-                        $('.send-form').show();
-                    }, 3000);
-                    $('.empty-image').removeClass('d-none');
-                },
-                error: function (xhr, status, error) {
-                    console.error(error);
-                }
-            });
-        });
-        $(document).ready(function () {
-            let popup = $("#popup");
-            popup.draggable();
-        });
+        }
     });
+
+
 </script>
