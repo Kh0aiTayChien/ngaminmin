@@ -45,6 +45,7 @@
 
     <!-- elFinder JS (REQUIRED) -->
     <script src="{{asset('/packages/barryvdh/elfinder/js/elfinder.full.js')}}"></script>
+
     <style>
         .bg-gradient-green {
             background: linear-gradient(-45deg, #59843d, #59843d, darkcyan, darkgreen);
@@ -64,7 +65,15 @@
                 background-position: 0% 50%;
             }
         }
-    </style>
+
+        .nav-item {
+            overflow: hidden;
+        }
+
+        .active {
+            background-color: rgba(173, 216, 230, 0.5);
+        }
+
     </style>
 </head>
 <body id="page-top">
@@ -132,34 +141,20 @@
             </a>
             <div class="collapse" id="articles">
                 <ul class="nav flex-column">
-                    @foreach ($articles as $article)
-                        <li class="nav-item {{ Nav::isRoute($article['route']) }}">
-                            <a class="nav-link" href="{{ $article['route'] }}">
-                                <span>{{ __($article['name']) }}</span>
-                            </a>
-                        </li>
-                    @endforeach
+                    <li class="nav-item {{ Nav::isRoute(('articles.create')) }}">
+                        <a class="nav-link" href="{{ route('articles.create') }}">
+                            <span>{{ __('Bài viết mới') }}</span>
+                        </a>
+                    </li>
+                    <li class="nav-item {{  Nav::hasSegment('index',3) }}">
+                        <a class="nav-link" href="{{ route('articles.index', ['conditionView' => 'index']) }}">
+                            <span>{{ __('Danh sách bài viết') }}</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </li>
-{{--        <li class="nav-item">--}}
-{{--            <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"--}}
-{{--               aria-controls="products">--}}
-{{--                <i class="fa fa-shopping-bag"></i>--}}
-{{--                <span>Sản phẩm</span>--}}
-{{--            </a>--}}
-{{--            <div class="collapse" id="products">--}}
-{{--                <ul class="nav flex-column">--}}
-{{--                    @foreach ($products as $product)--}}
-{{--                        <li class="nav-item {{ Nav::isRoute($product['route']) }}">--}}
-{{--                            <a class="nav-link" href="{{ $product['route'] }}">--}}
-{{--                                <span>{{ __($product['name']) }}</span>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    @endforeach--}}
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--        </li>--}}
+
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"
                aria-controls="images">
@@ -168,50 +163,53 @@
             </a>
             <div class="collapse" id="images">
                 <ul class="nav flex-column">
-                    @foreach ($images as $image)
-                        <li class="nav-item {{ Nav::isRoute($image['route']) }}">
-                            <a class="nav-link" href="{{ $image['route'] }}">
-                                <span>{{ __($image['name']) }}</span>
-                            </a>
-                        </li>
-                    @endforeach
+                    <li class="nav-item {{ Nav::isRoute('images.create') }}">
+                        <a class="nav-link" href="{{ route('images.create') }}">
+                            <span>Thêm ảnh mới</span>
+                        </a>
+                    </li>
+                    <li class="nav-item {{ Nav::isRoute('images.index') }}">
+                        <a class="nav-link" href="{{ route('images.index') }}">
+                            <span>Danh sách ảnh</span>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#libraries" role="button" aria-expanded="false"
+            <a class="nav-link" data-toggle="collapse" href="#seo" role="button" aria-expanded="false"
                aria-controls="articles">
-                <i class="fa fa-folder"></i>
-                <span> Quản lý file </span>
+                <i class="fa fa-search-plus"></i>
+                <span> SeoMenu </span>
             </a>
-            <div class="collapse" id="libraries">
+            <div class="collapse" id="seo">
                 <ul class="nav flex-column">
-                    @foreach ($libraries as $library)
-                        <li class="nav-item {{ Nav::isRoute($library['route']) }}">
-                            <a class="nav-link" href="{{ $library['route'] }}">
-                                <span>{{ __($library['name']) }}</span>
+                    <ul class="nav flex-column">
+                        <li class="nav-item {{ Nav::isRoute('admin.seoHomePage.edit') }}">
+                            <a class="nav-link" href="{{ route('admin.seoHomePage.edit') }}">
+                                <span>Seo Trang Chủ</span>
                             </a>
                         </li>
-                    @endforeach
+                    </ul>
                 </ul>
             </div>
         </li>
 
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#trash" role="button" aria-expanded="false"
-               aria-controls="articles">
+               aria-controls="trash">
                 <i class="fas fa-trash"></i>
                 <span> Thùng rác </span>
             </a>
             <div class="collapse" id="trash">
                 <ul class="nav flex-column">
-                    @foreach ($trash as $article)
-                        <li class="nav-item {{ Nav::isRoute($article['route']) }}">
-                            <a class="nav-link" href="{{ $article['route'] }}">
-                                <span>{{ __($article['name']) }}</span>
-                            </a>
-                        </li>
-                    @endforeach
+                    <li class="nav-item {{ Nav::hasSegment('trash',3) }}">
+                        <a class="nav-link" href="{{ route('articles.index',['conditionView' => 'trash'])}}">
+                            <span>Bài viết </span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </li>
@@ -526,5 +524,34 @@
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
+<script>
+    $('.nav-item').each(function () {
+        let $articles = $(this).find('#articles');
+        let $products = $(this).find('#products');
+        let $images = $(this).find('#images');
+        let $seo = $(this).find('#seo');
+        let $libraries = $(this).find('#libraries');
+        let $trash = $(this).find('#trash');
+        if ($articles.find('.active').length > 0) {
+            $articles.addClass('show');
+        }
+        if ($products.find('.active').length > 0) {
+            $products.addClass('show');
+        }
+        if ($images.find('.active').length > 0) {
+            $images.addClass('show');
+        }
+        if ($seo.find('.active').length > 0) {
+            $seo.addClass('show');
+        }
+        if ($libraries.find('.active').length > 0) {
+            $libraries.addClass('show');
+        }
+        if ($trash.find('.active').length > 0) {
+            $trash.addClass('show');
+        }
+    });
+</script>
+
 </body>
 </html>
