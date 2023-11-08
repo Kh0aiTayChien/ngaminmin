@@ -5,6 +5,7 @@ namespace App\Http\Controllers\NgaMin;
 use App\Http\Controllers\Controller;
 use App\Models\Article;
 use App\Models\Cart;
+use App\Models\SeoMeta as MySeoMeta;;
 use Artesaos\SEOTools\Facades\JsonLd;
 use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\SEOMeta;
@@ -16,22 +17,35 @@ class NgaMinController extends Controller
 {
     public function index(Request $request, $section = null)
     {
-        SEOMeta::setTitle('MinMinCare');
-        SEOMeta::setDescription('Xây dựng độc lập, tự chủ để nâng tầm chất lượng cuộc sống dù bạn là ai, ở đâu hay đội tuổi nào');
-        SEOMeta::setCanonical('https://ngaminmin.vn');
+        $seoMeta = MySeoMeta::first();
+        if ($seoMeta) {
+            SEOMeta::setTitle($seoMeta->title);
+            SEOMeta::setDescription($seoMeta->description);
+            SEOMeta::setCanonical($seoMeta->canonical_url);
 
-        OpenGraph::setDescription('Xây dựng độc lập, tự chủ để nâng tầm chất lượng cuộc sống dù bạn là ai, ở đâu hay đội tuổi nào');
-        OpenGraph::setTitle('NgaMinMin');
-        OpenGraph::setUrl('https://ngaminmin.vn');
-        OpenGraph::addProperty('type', 'blog');
-        OpenGraph::addImage('https://ngaminmin.vn/images/nga-min/sec3/34.jpg');
+            OpenGraph::setDescription($seoMeta->og_description);
+            OpenGraph::setTitle($seoMeta->og_title);
+            OpenGraph::setUrl($seoMeta->og_url);
+            OpenGraph::addProperty('type', 'homepage');
 
-        TwitterCard::setTitle('NgaMinMin');
-        TwitterCard::setSite('');
+            if ($seoMeta->og_image) {
+                OpenGraph::addImage(url($seoMeta->og_image));
+            } else {
+                OpenGraph::addImage(url($images[0]->image_url));
+            }
 
-        JsonLd::setTitle('NgaMinMin');
-        JsonLd::setDescription('Xây dựng độc lập, tự chủ để nâng tầm chất lượng cuộc sống dù bạn là ai, ở đâu hay đội tuổi nào.');
-        JsonLd::addImage('https://ngaminmin.vn/images/nga-min/sec3/34.jpg');
+            TwitterCard::setTitle($seoMeta->twitter_title);
+            TwitterCard::setSite($seoMeta->twitter_site);
+
+            JsonLd::setTitle($seoMeta->title);
+            JsonLd::setDescription($seoMeta->jsonld_description);
+
+            if ($seoMeta->jsonld_image) {
+                JsonLd::addImage(url($seoMeta->jsonld_image));
+            } else {
+                JsonLd::addImage(url($images[0]->image_url));
+            }
+        }
 
         $news = Article::whereHas('category', function ($query) {
             $query->where('title', 'tin tức');

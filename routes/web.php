@@ -10,6 +10,7 @@ use App\Http\Controllers\Introduce\IntroduceController;
 use App\Http\Controllers\KnowledgeController\Knowledge2Controller;
 use App\Http\Controllers\KnowledgeController\Knowledge3Controller;
 use App\Http\Controllers\KnowledgeController\KnowledgeController;
+use App\Http\Controllers\SeoMetaController;
 use App\Http\Controllers\MediaController;
 use App\Http\Controllers\MediaProductController;
 use App\Http\Controllers\News\NewsController;
@@ -70,6 +71,8 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::post('/uploadMediaProduct', [MediaProductController::class, 'store'])->name('admin.mediaProduct.upload');
     Route::get('/fixMediaProduct', [MediaProductController::class, 'fix'])->name('admin.mediaProduct.fix');
     Route::post('/updateMediaProduct', [MediaProductController::class, 'update'])->name('admin.mediaProduct.update');
+    Route::get('/seoHomePage', [SeoMetaController::class, 'edit'])->name('admin.seoHomePage.edit');
+    Route::post('/updateSeoHomePage', [SeoMetaController::class, 'update'])->name('admin.seoHomePage.update');
     Route::get('/home', [HomeController::class, 'index'])->name('home');
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
     Route::put('/profile', [ProfileController::class, 'update'])->name('profile.update');
