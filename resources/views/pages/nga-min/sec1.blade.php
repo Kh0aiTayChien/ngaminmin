@@ -74,9 +74,9 @@
     <p class="contentsec2mb-GT">Qua nghiên cứu từ sách vở và nguồn tài liệu uy tín Nga đã khám phá ra bột ngũ cốc từ các
         loại hạt giúp tăng cường lượng sữa cho con. Tuy nhiên, chất lượng sản phẩm trên thị trường thời điểm đó chưa đáp
         ứng được nhu cầu của Nga.</p>
-    <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 86vw; height: 180px">
-        <iframe class="utub" id="youtube-iframe" src="https://www.youtube.com/embed/RgjCwmywGjE?si=ix38a-PHu2HR__KN"
-                frameborder="0"
+    <div class="utubesec1mb-NM" style="border-radius: 10px; overflow: hidden; width: 80vw; height: 150px">
+        <iframe class="utub" id="youtube-iframe-sec6-NM-2"
+                src="https://www.youtube.com/embed/RgjCwmywGjE?si=ix38a-PHu2HR__KN" frameborder="0"
                 allowfullscreen></iframe>
         <br>
     </div>
